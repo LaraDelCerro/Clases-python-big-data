@@ -24,3 +24,20 @@ nombre = "Irene"
 apellidos = 'Martínez'
 mensaje = 'El niño dijo: "¿Qué pasa?"'
 print(mensaje)
+
+nombre_completo =  nombre + " " + apellidos + ": " + str(edad)
+print (nombre_completo)
+
+nombre_completo2 = f'{nombre} {apellidos}: {edad}' #otra manera más ágil para concatenar strings
+print(nombre_completo2)
+
+texto_largo = """
+Selecciona una opción:
+[1] Sopa
+[2] Puré de calabaza
+[3] Gazpacho 
+
+"""
+
+opcion = input(texto_largo)
+print ( f'La opción es {opcion}' )
