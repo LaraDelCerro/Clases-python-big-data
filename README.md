@@ -1,1 +1,1 @@
-Este es mi repositorio para guardar cosicas
+Este es mi repositorio para guardar cosicas (bonitas, claro)
