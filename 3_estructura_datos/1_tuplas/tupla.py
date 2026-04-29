@@ -32,3 +32,25 @@ def devolver_datos_usuario():
 
 print (devolver_datos_usuario())
 print (devolver_datos_usuario()[1])
+
+
+#las tuplas se pueden recorrer porque tiene posición
+for i in range(len(frutas)): #es lo mismo que range(0,len(frutas)), va de 0 a n-1
+    print(frutas[i])
+
+#este bucle es equivalente a este otro, más cómodo:
+for fruta in frutas:
+    print(fruta)
+
+
+#ERROR con las tuplas
+#frutas[0] = 'Mandarina' #no se puede reasignar ningún elemento de la tupla. frutas[0] = 'naranja'
+#Tampoco se puede añadir más elementos
+
+#Para eliminar una tupla:
+del (frutas)
+print(frutas)
+
+#si creo una tupla de un único elemento
+tupla_unico_elemento = ('Juan',) #es necesario añadir una coma detrás para que lo trate como tupla
+print tupla_unico_elemento
