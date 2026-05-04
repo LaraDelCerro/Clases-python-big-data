@@ -40,11 +40,36 @@ producto = {
 print( producto['pantalla'][0])
 
 #Si quiero acceder a la ram
-print(producto['caracteristicas']['ram'])
+print(producto['caracteristicas']['ram']) #16
 
 #Quiero ver los discos
-print(producto['caracteristicas']['disco'][0]])
-print(producto['caracteristicas']['disco'][1]])
+print(producto['caracteristicas']['disco'][0])
+print(producto['caracteristicas']['disco'][1])
 #También puedo verlo con un bucle:
 for i in range(len(producto['caracteristicas']['disco'])):
     print(producto['caracteristicas']['disco'][i])
+
+
+
+#Para extraer todos los elementos:
+for valor in alumno.values():
+    print(valor)
+
+print('-'*10)
+
+#Para extraer todas las claves:
+for clave in alumno.keys():
+    print(clave)
+
+print('-'*10)
+
+#Para extraer todas las claves con sus elementos:
+for clave, valor in alumno.items():
+    print(f'{clave}:{valor}')
+
+print('-*10')
+print(alumno.values()) #diccionario de valores
+print(alumno.keys()) #diccionario de claves
+print(alumno.items()) #diccionario de items
+
+

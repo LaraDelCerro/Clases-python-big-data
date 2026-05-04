@@ -15,39 +15,51 @@ def mostrar_notas(notas):
         color = "1" if nota <5 else "2"
         print(f'\033[3{color}m {nota} \033[0m')
 
-
+""""
 def añadir_nota(notas):
     nota_nueva= input('¿Qué nota quieres añadir?: ')
     notas = notas.append(nota_nueva)
     mostrar_notas(notas)
 
+
 def añadir_por_posicion(notas):
     nota = input('¿Qué nota quieres añadir?: ')
     posicion = input('¿En qué posición quieres añadirla?: ')
     notas = notas.insert(int(posicion), float(nota))
+"""
+
+#Esta fcón sirve para las opciones 2 y 3. Posición es un parámetro opcional, si no lo introducimos toma len(notas).
+#En ese caso añadiría la nota al final
+def insertar_nota(nota, posicion=len(notas)):
+    notas = notas.insert(int(posicion), float(nota))
+    mostrar_notas(notas)
+
 
 
 def mostrar_lista_ordenada(notas):
-    notas_ordenadas = notas.sort()
+    notas_ordenadas = sorted(notas, reverse = True)
     mostrar_notas(notas_ordenadas)
 
 def media_notas(notas):
     media=sum(notas)/len(notas)
-    print(media)
+    print(round(media,2))
 
-    
 
+#Opción 1: junior
 def alumnos_aprobados(notas):
     for nota in notas:
         aprobados = 0
         if nota>=5:
             aprobados+=1
-    mostrar_notas(notas)
+    return aprobados
 
+#Opción 2: senior. Mejorar la fcón para que sirva si más adelante quiero contar también los suspensos
+def contar_notas_senior(notas, tipo='aprobados'):
+    lista_aprobados = list(filter(lambda nota: nota>=5, notas)) #filtra notas, se queda con >=5 y devuelve una lista
+    if tipo == 'suspensos':
+        return len(notas) - len (lista_aprobados)
+    return len(lista_aprobados)
 
-def insertar_nota(nota, posicion=len(notas)):
-    notas = notas.insert(int(posicion), float(nota))
-    mostrar_notas(notas)
 
 
 
@@ -73,6 +85,7 @@ def main():
     print(menu)
 
     option = input ('¿Qué operación quieres realizar? ')
+    print('-'*40)
     if option == '1':
         mostrar_notas(notas)
     elif option == '2':
@@ -85,18 +98,21 @@ def main():
     elif option == '5':
         media_notas(notas)
     elif option == '6':
-        print(max(nota))
+        print(f'La nota máxima es {max(nota)}')
     elif option == '7':
-        print(min(notas))
+        print(f'La nota mínima es {min(notas)}')
     elif option == '8':
-        alumnos_aprobados(notas)
+        tipo = input('¿Qué buscas: aprobados o suspensos?: ')
+        numero = contar_notas_senior(notas, tipo)
+        print(f'El número de {tipo} es {numero}')
     elif option == 'x' or option == 'X':
         print('Hasta pronto. Vuelve cuando quieras')
+        return
     else:
         print('Valor introducido no válido. Introduce de nuevo el valor. ')
-        main()
+        #main()
+    print('-'*40)
+    print(' ')
+    main()
     
-
-
-
 main()
