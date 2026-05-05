@@ -13,16 +13,30 @@
 
 contactos = []
 
+def limpiadora_datos(texto):
+    texto = texto.lower() #paso todo a minúscula
+    #paso 2: quitar tildes
+    lista_vocales_tildes = ['á', 'é', 'í', 'ó', 'ú', 'ü']
+    lista_vocales = ['a', 'e', 'i', 'o', 'u', 'u'] #ambas listas deben tener la misma longitud, por eso hay dos 'u'
+    for i in range(len(lista_vocales_tildes)): #recorre la lista de tildes y si en el texto hay alguna, la sustituye por la correspondiente sin tilde
+        texto = texto.replace(lista_vocales_tildes[i], lista_vocales[i])
+    return texto
+
+
+
 def insertar_contacto(nombre,tfno,contactos):
     nuevo_contacto = {
-        'nombre': nombre,
+        'nombre': limpiadora_datos(nombre), #dejo el nombre en minúsculas y sin tildes para poder borrar luego por nombre. 
         'tfno' : tfno
     }
     contactos.append(nuevo_contacto)
+    print(' '*15)
+    print('## Contacto añadido correctamente ##')
     
 
 def pintar_contactos(lista):
     for contacto in lista:
+        print(' '*15)
         print(f'Nombre: {contacto['nombre']}')
         print('- '*15)
         print(f'Teléfono: {contacto['tfno']}')
@@ -31,13 +45,19 @@ def pintar_contactos(lista):
 
 
 
-def borrar_ultimo_contacto(lista):
-    lista = lista
+def borrar_contacto(lista, nombre=""): #si no pasamos el param nombre, borra el último
+    if nombre != "":
+        for contacto in lista:
+            if contacto['nombre'] == nombre: 
+                lista.remove(contacto)
+        print(' '*15)
+        print(f'## Contacto con nombre {nombre} borrado correctamente ##')
 
-
-
-
-
+        pass
+    else:
+        lista.pop() #borramos el último
+        print(' '*15)
+        print('## Último contacto borrado correctamente ##')
 
 
 
@@ -46,6 +66,7 @@ def borrar_ultimo_contacto(lista):
 
 
 def main():
+    print(' '*15)
     menu = """ BIENVENIDO AL MENÚ
     _____________________________________________
     ESCOGE UNA OPCIÓN:
@@ -62,7 +83,13 @@ def main():
         tfno = input ('Dime el teléfono del nuevo contacto: ')
         insertar_contacto(nombre,tfno,contactos)
     elif opcion == '2':
-        pintar_contactos(contactos)   
+        pintar_contactos(contactos)
+    elif opcion == '3':
+        borrar_contacto(contactos) #si no le paso nombre borro el último contacto
+    elif opcion == '4':
+        nombre = input('Dime el nombre a borrar: ')
+        nombre = limpiadora_datos(nombre) #introduzco el nombre limpio para localizarlo luego en el diccionario
+        borrar_contacto(contactos, nombre)
     elif opcion == 'x' or opcion == 'X':
         print('Hasta pronto')
         return 
