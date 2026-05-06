@@ -18,4 +18,4 @@ print(calcular_coste_hora_extra(trabajadores))
 #calcular la nómina de un trabajador. Nómina = sueldo base menos impuestos sobre sueldo base + horas extra
 #calcular la nómina de todos los trabajadores
 
-#probando git
+
