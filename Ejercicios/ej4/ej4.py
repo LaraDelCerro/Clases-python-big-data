@@ -6,12 +6,34 @@ from data.trabajadores import trabajadores
 def calcular_coste_hora_extra(trabajador):
     sueldo_por_hora = trabajador['sueldo_base'] / trabajador['horas_contrato']
     sueldo_horas_extra = trabajador['horas_extra'] * sueldo_por_hora
+<<<<<<< HEAD
     trabajador['sueldo_horas_extra'] = sueldo_horas_extra
     #print(trabajador)
 
 
+=======
+    trabajador['sueldo horas extra'] = sueldo_horas_extra
+    print(trabajador)
+
+
+for trabajador in trabajadores:
+    calcular_coste_hora_extra(trabajador)
+
+
+#print(calcular_coste_hora_extra(trabajadores))
+>>>>>>> 00cb650 (Ej4_diccionario de trabajadores)
 
 #calcular la nómina de un trabajador. Nómina = sueldo base menos impuestos sobre sueldo base + horas extra
+def calcular_nomina(trabajador):
+    sueldo_con_impuestos = trabajador['sueldo_base']*(1-trabajador[porcentaje_impuestos])
+    nomina = sueldo_con_impuestos + trabajador['sueldo_horas_extra']
+    trabajador['nomina'] = nomina
+    print(trabajador)
+
+for trabajador in trabajadores:
+    calcular_nomina(trabajador)
+
+
 #calcular la nómina de todos los trabajadores
 
 
