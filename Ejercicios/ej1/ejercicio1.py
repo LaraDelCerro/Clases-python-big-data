@@ -34,6 +34,10 @@ print(' '*15)
 print('## CLASIFICAR NÚMEROS ##')
 print(' '*15)
 
+#print(f'Lista de números positivos:  {clasificar_numeros(numeros)[0]} \033[0m')
+
+
+
 print(f'Lista de números positivos: \033[32m {clasificar_numeros(numeros)[0]} \033[0m') #los pinta de verde
 print(f'Lista de números negativos: \033[31m {clasificar_numeros(numeros)[1]} \033[0m')#los pinta de rojo
 print(f'Lista de ceros: {clasificar_numeros(numeros)[2]}')
