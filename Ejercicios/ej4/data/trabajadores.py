@@ -43,5 +43,14 @@ trabajadores = [
         "horas_contrato": 30,
         "horas_extra": 2,
         "porcentaje_impuestos": 15.0
+    },
+    {
+         "id": 6, 
+        "nombre": "María García", 
+        "departamento": "TI", 
+        "sueldo_base": 3200.00, 
+        "horas_contrato": 30,
+        "horas_extra": 2,
+        "porcentaje_impuestos": 15.0
     }
 ]
