@@ -1,0 +1,4 @@
+Ratón: 20
+Teclado: 10
+Gráfica: 300
+CPU: 130

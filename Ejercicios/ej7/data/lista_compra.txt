@@ -1,0 +1,3 @@
+pescado: 2
+huevos: 4
+f: d
