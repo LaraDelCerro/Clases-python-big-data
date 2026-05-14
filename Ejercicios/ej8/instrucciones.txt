@@ -1,0 +1,3 @@
+1 - Es mostrar solo aquellos juegos que estén en stock
+2 - Crear un archivo rebajas.csv con todos los juegos rebajados un 20%
+3 - Cuál es el juego más caro y el más barato
