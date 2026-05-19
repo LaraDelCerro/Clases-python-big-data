@@ -1,0 +1,202 @@
+[
+    {
+        "nombre": "Carlos Rodríguez",
+        "nota": 2.0,
+        "aprobado": false
+    },
+    {
+        "nombre": "Pedro Gómez",
+        "nota": 3.5,
+        "aprobado": false
+    },
+    {
+        "nombre": "Luis Martínez",
+        "nota": 1.6,
+        "aprobado": false
+    },
+    {
+        "nombre": "Diego Ruiz",
+        "nota": 3.1,
+        "aprobado": false
+    },
+    {
+        "nombre": "Elena Rodríguez",
+        "nota": 1.1,
+        "aprobado": false
+    },
+    {
+        "nombre": "Sofía Pérez",
+        "nota": 3.0,
+        "aprobado": false
+    },
+    {
+        "nombre": "Pedro López",
+        "nota": 2.2,
+        "aprobado": false
+    },
+    {
+        "nombre": "Pablo Ruiz",
+        "nota": 3.6,
+        "aprobado": false
+    },
+    {
+        "nombre": "María Gómez",
+        "nota": 3.2,
+        "aprobado": false
+    },
+    {
+        "nombre": "Carlos Ruiz",
+        "nota": 4.1,
+        "aprobado": false
+    },
+    {
+        "nombre": "Lucía Sánchez",
+        "nota": 2.3,
+        "aprobado": false
+    },
+    {
+        "nombre": "Carlos Pérez",
+        "nota": 4.9,
+        "aprobado": false
+    },
+    {
+        "nombre": "Elena Fernández",
+        "nota": 3.9,
+        "aprobado": false
+    },
+    {
+        "nombre": "Pablo Gómez",
+        "nota": 4.0,
+        "aprobado": false
+    },
+    {
+        "nombre": "Ana Martínez",
+        "nota": 1.6,
+        "aprobado": false
+    },
+    {
+        "nombre": "Pablo López",
+        "nota": 3.7,
+        "aprobado": false
+    },
+    {
+        "nombre": "Carlos Pérez",
+        "nota": 2.0,
+        "aprobado": false
+    },
+    {
+        "nombre": "Ana Sánchez",
+        "nota": 2.3,
+        "aprobado": false
+    },
+    {
+        "nombre": "Sofía García",
+        "nota": 1.3,
+        "aprobado": false
+    },
+    {
+        "nombre": "Pablo López",
+        "nota": 1.3,
+        "aprobado": false
+    },
+    {
+        "nombre": "Elena López",
+        "nota": 1.4,
+        "aprobado": false
+    },
+    {
+        "nombre": "Ana Fernández",
+        "nota": 3.9,
+        "aprobado": false
+    },
+    {
+        "nombre": "Sofía Gómez",
+        "nota": 4.1,
+        "aprobado": false
+    },
+    {
+        "nombre": "Carlos Sánchez",
+        "nota": 1.9,
+        "aprobado": false
+    },
+    {
+        "nombre": "Luis Ruiz",
+        "nota": 1.8,
+        "aprobado": false
+    },
+    {
+        "nombre": "Elena Rodríguez",
+        "nota": 1.9,
+        "aprobado": false
+    },
+    {
+        "nombre": "Elena González",
+        "nota": 4.6,
+        "aprobado": false
+    },
+    {
+        "nombre": "Pedro Martínez",
+        "nota": 4.4,
+        "aprobado": false
+    },
+    {
+        "nombre": "Javier Martínez",
+        "nota": 4.2,
+        "aprobado": false
+    },
+    {
+        "nombre": "Marta Fernández",
+        "nota": 4.9,
+        "aprobado": false
+    },
+    {
+        "nombre": "Diego Gómez",
+        "nota": 2.7,
+        "aprobado": false
+    },
+    {
+        "nombre": "Luis López",
+        "nota": 3.7,
+        "aprobado": false
+    },
+    {
+        "nombre": "Carlos Ruiz",
+        "nota": 3.7,
+        "aprobado": false
+    },
+    {
+        "nombre": "Pablo Gómez",
+        "nota": 1.7,
+        "aprobado": false
+    },
+    {
+        "nombre": "Carlos Gómez",
+        "nota": 4.3,
+        "aprobado": false
+    },
+    {
+        "nombre": "Pablo Martínez",
+        "nota": 1.2,
+        "aprobado": false
+    },
+    {
+        "nombre": "Ana González",
+        "nota": 3.3,
+        "aprobado": false
+    },
+    {
+        "nombre": "Marta Sánchez",
+        "nota": 3.0,
+        "aprobado": false
+    },
+    {
+        "nombre": "Sofía Sánchez",
+        "nota": 2.3,
+        "aprobado": false
+    },
+    {
+        "nombre": "Elena Gómez",
+        "nota": 1.9,
+        "aprobado": false
+    }
+]
