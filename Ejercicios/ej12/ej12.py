@@ -35,20 +35,32 @@ def leer_fichero (carpeta, nombre):
     return lista
     
 
-datos = leer_fichero('data', 'access_log.txt')
-
+#datos = leer_fichero('data', 'access_log.txt')
 
 
 def crear_fichero(carpeta, nombre, datos):
     excel = Workbook()
     hoja = excel.active
     hoja.title = 'Logs de server'
-    cabeceras = ['fecha_hora', 'ip', 'metodo', 'end_point', 'status', 'tiempo_respuesta']
+    cabeceras = ['fecha_hora', 'ip', 'metodo', 'end_point', 'status', 'tiempo_respuesta', 'alerta']
     hoja.append(cabeceras)
     for fila in datos:
         hoja.append(fila)
     excel.save(f'./{carpeta}/{nombre}')
     
+
+def modificar_datos(lista, tiempo):
+    for item in datos:
+        if item[5] > tiempo:
+            item.append('lento')
+        else:
+            item.append('optimo')
+    return lista
+
+
+
+
     
 datos = leer_fichero('data', 'access_log.txt')
+datos = modificar_datos(datos, 300)
 crear_excel('data', 'reporte_log.xlsx', datos)
