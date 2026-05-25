@@ -1,5 +1,5 @@
 from lib.carga import cargar_excel, cargar_csv, cargar_json, cargar_xml, pintar_info_fichero
-from lib.limpieza import limpiar_texto, normalizar_texto, procesar_csv, procesar_excel, procesar_json,procesar_xml, limpiar_valor_numerico
+from lib.limpieza import limpiar_texto, normalizar_texto, procesar_csv, procesar_excel, procesar_json,procesar_xml, limpiar_valor_numerico, normalizar_fecha, normalizar_categoria
 
 horarios = cargar_excel('datos', 'escenarios_horarios.xlsx')
 #print(horarios)
@@ -42,4 +42,6 @@ artistas_limpio = procesar_csv(artistas)
 #patrocinadores_limpio = procesar_xml(patrocinadores)
 #print(patrocinadores_limpio)
 
+
+print(normalizar_fecha('15 de julio de 2026'))
 

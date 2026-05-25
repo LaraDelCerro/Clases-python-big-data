@@ -68,6 +68,13 @@ mapeo_paises = {
 
     }
 
+mapeo_escenarios={}
+
+mapeo_tipo_entrada = {}
+
+mapeo_metodo_pago = {}
+
+mapeo_categoria = {}
 
 
 def limpiar_texto(texto): #elimina espacios al ppo, al final y en medio
@@ -120,7 +127,87 @@ def limpiar_valor_numerico(valor, tipo):
     except ValueError:
         return None
         
+def normalizar_fecha(fecha_texto):
+    print(f'fecha texto', fecha_texto)
+    meses = {
+    "enero":1, "febrero":2, "marzo":3, "abril":4,
+    "mayo":5, "junio":6, "julio":7, "agosto":8,
+    "septiembre":9, "octubre":10, "noviembre":11, "diciembre":12,
+    "jan":1, "feb":2, "mar":3, "apr":4, "may":5, "jun":6,
+    "jul":7, "aug":8, "sep":9, "oct":10, "nov":11, "dec":12
+    }
+    if fecha_texto.find('/') and ( len(fecha_texto.split(' / ')[0]) == 1 or len(fecha_texto.split('/')[0]) == 2):
+        print('0')
+        fecha_partes = fecha_texto.split('/')
+        dia = fecha_partes[0]
+        mes =  str((fecha_partes[1])).zfill(2)
+        anio = fecha_partes[2]
+        #return fecha_texto
+    
+    
+    elif '-' in fecha_texto and  len(fecha_texto.split('-')[0]) == 4:
+        fecha_trozos = fecha_texto.split('-')
+        fecha_trozos.reverse()
+        dia = fecha_trozos[0]
+        mes = fecha_trozos [1]
+        anio = fecha_trozos[2]
+        #fecha = '/'.join(fecha_trozos)
+        #return fecha
+        print('if 1')
+    
+        # return '/'.join(fecha_texto.split('-').reverse())
+    elif ' de ' in fecha_texto:
+        fecha_partes = fecha_texto.split(' de ')
+        dia=fecha_partes[0]
+        mes_letra =fecha_partes[1] #julio
+        mes = str(meses[mes_letra]).zfill(2)
+        anio=fecha_partes[2]
+        #print(f'{dia}/{mes}/{anio}')
+        print('if 2')
         
+    elif fecha_texto.find(',') and fecha_texto.split(' ')[0].isalpha():
+        #mes = fecha_texto.split(' ')[0]
+        fecha_partes = fecha_texto.replace(' ', ',').split(',')
+        print(fecha_partes)
+        dia = fecha_partes[1]
+        mes_letra = fecha_partes[0]
+        mes = meses[mes_letra]
+        anio = fecha_partes[3]
+        #print(f'{dia}/{mes}/{anio}')
+        print('if 3')
+
+    elif '-' in fecha_texto and ( len(fecha_texto.split('-')[0]) == 1 or len(fecha_texto.split('-')[0]) == 2):
+        fecha_partes = fecha_texto.replace('-', '/').split('/')
+        dia = fecha_partes[0]
+        mes = fecha_partes[1]
+        anio = fecha_partes[2]
+        #print(f'{dia}/{mes}/{anio}')
+        print('if 4')
+    
+    elif '/' in fecha_texto and len(fecha_texto.split('/')[2]) == 2 and len(fecha_texto.split('/')[1]) == 1:
+        fecha_partes = fecha_texto.split('/')
+        dia = fecha_partes[0]
+        mes =  str((fecha_partes[1])).zfill(2)
+        anio = fecha_partes[2]
+        print('if 5')
+
+
+    elif '-' in fecha_texto and fecha_texto.split('-')[1].isalpha():
+        fecha_partes = fecha_texto.split('-')
+        dia = fecha_partes[0]
+        mes_letra = fecha_partes[1]
+        mes = meses[mes_letra]
+        anio = fecha_partes[2]
+        print('if 6')
+
+    else:
+        print ('Fecha inválida')
+
+    return (f"{dia}/{mes}/{anio}")
+    #return (f"{dia:02d}/{mes:02d}/{anio}")
+     
+
+
 
 def auditar(item,item_limpio):
     diccionario = {}
@@ -146,7 +233,7 @@ def procesar_csv(lista):
         item_limpio = {
            'id_artista': normalizar_texto(item['id_artista']),
             'nombre' : normalizar_texto(item['nombre']),
-            'genero_musical': normalizar_texto(item['genero_musical']),
+            'genero_musical': normalizar_categoria(item['genero_musical'], mapeo_generos),
              'pais':normalizar_categoria(item['pais'], mapeo_paises),
              'cache_eur': limpiar_valor_numerico(['cache_eur'],'float'),
              'email_manager':normalizar_texto(item['email_manager']),
@@ -170,7 +257,7 @@ def procesar_excel(lista):
     for item in lista:
        item_limpio = {
             'fecha': normalizar_texto(item['fecha']),
-            'escenario' : normalizar_texto(item['escenario']),
+            'escenario' : normalizar_categoria(item['escenario'], mapeo_escenarios),
             'artista': normalizar_texto(item['artista']),
              'hora_inicio':(item['hora_inicio']),
              'hora_fin':item['hora_fin'],
@@ -193,10 +280,10 @@ def procesar_json(lista):
             'nombre_comprador' : normalizar_texto(item['nombre_comprador']),
             'email': normalizar_texto(item['email']),
             'dni':normalizar_texto(item['dni']),
-            'tipo_entrada':normalizar_texto(item['tipo_entrada']),
+            'tipo_entrada':normalizar_categoria(item['tipo_entrada'], mapeo_tipo_entrada),
             'precio':limpiar_valor_numerico(item['precio'],'float'),
             'fecha_compra': (item['fecha_compra']),
-            'metodo_pago': normalizar_texto(item['metodo_pago'])
+            'metodo_pago': normalizar_categoria(item['metodo_pago'], mapeo_metodo_pago)
        }
        auditoria = auditar(item, item_limpio)
        lista_auditoria.append(auditoria)
@@ -214,7 +301,7 @@ def procesar_xml(lista):
             'contacto' : normalizar_texto(item['contacto']),
             'email': normalizar_texto(item['email']),
             'importe_patrocinio':(item['importe_patrocinio']),
-            'categoria':normalizar_categoria(item['categoria'], mapeo_generos),
+            'categoria':normalizar_categoria(item['categoria'], mapeo_categoria),
             'fecha_inicio':item['fecha_inicio'],
             'fecha_fin': item['fecha_fin']
        }
@@ -232,7 +319,10 @@ def normalizar_categoria(texto,mapeo_generos):
     for clave, valor in mapeo_generos.items():
         if texto == clave:
             categoria_limpia = valor
+    if categoria_limpia == limpiar_texto(texto):
+        print ('Valor no reconocido')
     return categoria_limpia
+
 
 
     
