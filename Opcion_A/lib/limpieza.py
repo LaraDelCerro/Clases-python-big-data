@@ -256,7 +256,7 @@ def procesar_excel(lista):
     lista_limpia = []
     for item in lista:
        item_limpio = {
-            'fecha': normalizar_texto(item['fecha']),
+            'fecha': normalizar_fecha(item['fecha']),
             'escenario' : normalizar_categoria(item['escenario'], mapeo_escenarios),
             'artista': normalizar_texto(item['artista']),
              'hora_inicio':(item['hora_inicio']),
@@ -282,7 +282,7 @@ def procesar_json(lista):
             'dni':normalizar_texto(item['dni']),
             'tipo_entrada':normalizar_categoria(item['tipo_entrada'], mapeo_tipo_entrada),
             'precio':limpiar_valor_numerico(item['precio'],'float'),
-            'fecha_compra': (item['fecha_compra']),
+            'fecha_compra': normalizar_fecha(item['fecha_compra']),
             'metodo_pago': normalizar_categoria(item['metodo_pago'], mapeo_metodo_pago)
        }
        auditoria = auditar(item, item_limpio)
@@ -302,8 +302,8 @@ def procesar_xml(lista):
             'email': normalizar_texto(item['email']),
             'importe_patrocinio':(item['importe_patrocinio']),
             'categoria':normalizar_categoria(item['categoria'], mapeo_categoria),
-            'fecha_inicio':item['fecha_inicio'],
-            'fecha_fin': item['fecha_fin']
+            'fecha_inicio':normalizar_fecha(item['fecha_inicio']),
+            'fecha_fin': normalizar_fecha(item['fecha_fin'])
        }
        auditoria = auditar(item, item_limpio)
        lista_auditoria.append(auditoria)
