@@ -43,5 +43,9 @@ artistas_limpio = procesar_csv(artistas)
 #print(patrocinadores_limpio)
 
 
-print(normalizar_fecha('15 de julio de 2026'))
+#print(normalizar_fecha('15 de julio de 2026'))
+
+valores_unicos = set(r['escenario'].lower().strip() for r in datos)
+print(valores_unicos)
+
 
