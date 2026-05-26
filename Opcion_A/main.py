@@ -1,47 +1,52 @@
 from lib.carga import cargar_excel, cargar_csv, cargar_json, cargar_xml, pintar_info_fichero
 from lib.limpieza import limpiar_texto, normalizar_texto, procesar_csv, procesar_excel, procesar_json,procesar_xml, limpiar_valor_numerico, normalizar_fecha, normalizar_categoria
+from lib.exportacion import crear_csv, crear_excel
+import os
+
+os.makedirs('datos_limpios', exist_ok=True)
 
 horarios = cargar_excel('datos', 'escenarios_horarios.xlsx')
-#print(horarios)
-
 artistas = cargar_csv('datos', 'artistas.csv')
-#print(artistas)
-
 ventas_entradas = cargar_json('datos', 'ventas_entradas.json')
-#print(ventas_entradas)
-
 patrocinadores = cargar_xml('datos', 'patrocinadores.xml')
 
-#print(patrocinadores)
 
-#print(len(horarios))
-#print(type(horarios))
+horarios_limpios, auditoria_horarios = procesar_excel(horarios)
+artistas_limpios, auditoria_artistas = procesar_csv(artistas)
+ventas_entradas_limpios, auditoria_entradas = procesar_json(ventas_entradas)
+patrocinadores_limpios, auditoria_patrocinadores = procesar_xml(patrocinadores)
 
-
-#print(normalizar_texto('  Juan garcia                lopez   '))
-
-
-
-#cabeceras =list(horarios[0].keys())
-#print(cabeceras)
-
-#pintar_info_fichero(horarios, 'escenarios_horarios.xlsx', 5)
-#pintar_info_fichero(artistas, 'artistas.csv', 5)
-#pintar_info_fichero(ventas_entradas, 'ventas_entradas.json', 5)
-#pintar_info_fichero(patrocinadores, 'patrocinadores.xml', 5)
-
-artistas_limpio = procesar_csv(artistas)
-#print(artistas_limpio)
-
-#horarios_limpio = procesar_excel(horarios)
-#print(horarios_limpio)
-
-#ventas_entradas_limpio = procesar_json(ventas_entradas)
-#print(ventas_entradas_limpio)
-
-#patrocinadores_limpio = procesar_xml(patrocinadores)
-#print(patrocinadores_limpio)
+print(auditoria_horarios)
+print(auditoria_artistas)
+print(auditoria_entradas)
+print(auditoria_patrocinadores)
 
 
-print(normalizar_fecha('15 de julio de 2026'))
+
+crear_csv(horarios_limpios, 'horarios_limpio.csv', 'datos_limpios')
+crear_csv(artistas_limpios, 'artistas_limpios.csv','datos_limpios')
+crear_csv(ventas_entradas_limpios, 'venta_entradas_limpios.csv', 'datos_limpios')
+crear_csv(patrocinadores_limpios, 'patrocinadores_limpio.csv', 'datos_limpios')
+
+
+
+crear_excel(horarios_limpios, 'datos_limpios', 'datos.xlsx', 'horarios')
+crear_excel(artistas_limpios, 'datos_limpios', 'datos.xlsx', 'artistas')
+crear_excel(ventas_entradas_limpios, 'datos_limpios', 'datos.xlsx', 'venta_entradas')
+crear_excel(patrocinadores, 'datos_limpios', 'datos.xlsx', 'patrocinadores')
+
+
+#print ('Auditoría horarios')
+
+
+
+
+
+
+
+
+
+
+
+
 

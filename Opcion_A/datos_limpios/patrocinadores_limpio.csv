@@ -1,0 +1,574 @@
+contacto,email,nombre_empresa,categoria,importe_patrocinio,fecha_fin,fecha_inicio
+Gloria Ortiz,gloria.ortiz@musica.es,Telefónica,SILVER,78597,"septiembre 31, 2026",01-01-2026
+Fernando Morales,fernando.morales@musica.es,Banco Santander,BRONCE,"46,970",2026-10-31,1/3/26
+Roberto Cortés,roberto.cortes@outlook.com,Iberdrola,Plata,55960,31/10/26,2026-02-01
+Pedro Sánchez,,  Repsol,Plata,"57,184",31/10/26,1/2/26
+Adrián Calvo,adrian.calvo@management.com,BBVA,Oro,"99,340",31-ago-2026,1-ene-2026
+Ana Fernández,ana.fernandez@yahoo.es,Mapfre,SILVER,65979€,31/08/2026,1-feb-2026
+Marcos Peña,marcos.pena@musica.es,El Corte Inglés,Plata,46168,2026-11-31,1/1/26
+Pablo Santos,pablo.santos@musica.es,Mercadona,Plata,51233,31/10/2026,1-feb-2026
+Nuria Gallego,nuria.gallego@management.com,Inditex  ,Silver,52956,"agosto 31, 2026","enero 1, 2026"
+,hugo.guerrero@gmail.com,Endesa,BRONCE,39174,31-ago-2026,1/3/26
+Sandra Cabrera,sandra.cabrera@outlook.com,CaixaBank,Silver,56163,"octubre 31, 2026",2026-01-01
+Sara Navarro,,Naturgy,BRONZE,46321,"noviembre 31, 2026","marzo 1, 2026"
+,..eva.garrido.@musica.es,Seat,BRONZE,20112€,31-11-2026,1/1/26
+Marcos Peña,marcos.pena@hotmail.com,Estrella Damm,Bronze,44754,,"enero 1, 2026"
+,,Mahou  ,Silver,55760,31/09/2026,1 de enero de 2026
+Manuel Torres,manuel.torres@yahoo.es,Red Bull,Bronce,49792.00,2026-08-31,01/03/2026
+Rocío Suárez,rocio.suarez@gmail.com,Coca-Cola,Oro ,120068,2026-11-31,01/01/2026
+Carlos Martínez,carlos.martinez@outlook.com,Samsung,Gold,102548€,31-08-2026,1-ene-2026
+Elena Álvarez,elena.alvarez@musica.es,Spotify  ,Silver,58481€,"diciembre 31, 2026",01-02-2026
+David Ruiz,,Monster Energy,ORO,115651,31/09/2026,2026-02-01
+,sandra.cabrera@yahoo.es,  Adidas,bronce,38078,2026-08-31,1 de febrero de 2026
+Paula Gil,paula.gil@gmail.com,Nike,ORO,114962,31/10/2026,01-03-2026
+Tomás Soto,tomas.soto@hotmail.com,Pepsi,GOLD,112690,2026-11-31,1-ene-2026
+Sara Navarro,sara.navarro@yahoo.es,Heineken,Oro ,119758,31-dic-2026,1/3/26
+Sara Navarro,sara.navarro@outlook.com,Movistar,BRONZE,42347,31/12/2026,1/1/26
+Isabel Gómez,,Vodafone,PLATA,54642.00,"diciembre 31, 2026",01/02/2026
+Marta Vázquez,marta.vazquez@management.com,Orange,SILVER,53089€,31-08-2026,1 de enero de 2026
+Felipe Carrasco,felipe.carrasco@gmail.com,Amazon,ORO,"107,892",31 de octubre de 2026,01-02-2026
+Daniel Castro,daniel.castro@yahoo.es,Google,BRONZE,43561,31-sep-2026,01/01/2026
+Fernando Morales,fernando.morales@gmail.com,Meta,SILVER,51294€,31-oct-2026,01/03/2026
+Marta Vázquez,marta.vazquez@gmail.com,Apple,Gold,104213,31/12/2026,1 de marzo de 2026
+Ana Fernández,ana.fernandez@yahoo.es,Microsoft  ,Plata,78948.00,31/08/2026,2026-03-01
+Irene Prieto,irene.prieto@yahoo.es,Sony,Bronce,28439,"septiembre 31, 2026",01/02/2026
+,adrian.calvo@outlook.com,HP  ,Oro,99400€,31/08/2026,2026-03-01
+Hugo Guerrero,hugo.guerrero@hotmail.com,Lenovo,oro,110396,"noviembre 31, 2026","marzo 1, 2026"
+Mario Girón,miguel.rodriguez@musica.es,MERCADONA,Silver,58015,31-nov-2026,01-02-2026
+Víctor Blanco,rocio.suarez@hotmail.com,NATURGY,Oro,80812,31-ago-2026,01/02/2026
+Clara Cano,clara.cano@management.com,telefónica,BRONZE,59683,31 de octubre de 2026,01/02/2026
+José García,david.ruiz@yahoo.es,MERCADONA,BRONZE,80076,31-oct-2026,"marzo 1, 2026"
+Isabel Gómez,alejandro.molina@management.com, Inditex ,Oro ,42871,31 de noviembre de 2026,1/3/26
+nombre_empresa,fecha_inicio,email,contacto,categoria,importe_patrocinio,fecha_fin
+Telefónica,01-01-2026,gloria.ortiz@musica.es,Gloria Ortiz,SILVER,78597,"septiembre 31, 2026"
+Banco Santander,1/3/26,fernando.morales@musica.es,Fernando Morales,BRONCE,"46,970",2026-10-31
+Iberdrola,2026-02-01,roberto.cortes@outlook.com,Roberto Cortés,Plata,55960,31/10/26
+  Repsol,1/2/26,,Pedro Sánchez,Plata,"57,184",31/10/26
+BBVA,1-ene-2026,adrian.calvo@management.com,Adrián Calvo,Oro,"99,340",31-ago-2026
+Mapfre,1-feb-2026,ana.fernandez@yahoo.es,Ana Fernández,SILVER,65979€,31/08/2026
+El Corte Inglés,1/1/26,marcos.pena@musica.es,Marcos Peña,Plata,46168,2026-11-31
+Mercadona,1-feb-2026,pablo.santos@musica.es,Pablo Santos,Plata,51233,31/10/2026
+Inditex  ,"enero 1, 2026",nuria.gallego@management.com,Nuria Gallego,Silver,52956,"agosto 31, 2026"
+Endesa,1/3/26,hugo.guerrero@gmail.com,,BRONCE,39174,31-ago-2026
+CaixaBank,2026-01-01,sandra.cabrera@outlook.com,Sandra Cabrera,Silver,56163,"octubre 31, 2026"
+Naturgy,"marzo 1, 2026",,Sara Navarro,BRONZE,46321,"noviembre 31, 2026"
+Seat,1/1/26,..eva.garrido.@musica.es,,BRONZE,20112€,31-11-2026
+Estrella Damm,"enero 1, 2026",marcos.pena@hotmail.com,Marcos Peña,Bronze,44754,
+Mahou  ,1 de enero de 2026,,,Silver,55760,31/09/2026
+Red Bull,01/03/2026,manuel.torres@yahoo.es,Manuel Torres,Bronce,49792.00,2026-08-31
+Coca-Cola,01/01/2026,rocio.suarez@gmail.com,Rocío Suárez,Oro ,120068,2026-11-31
+Samsung,1-ene-2026,carlos.martinez@outlook.com,Carlos Martínez,Gold,102548€,31-08-2026
+Spotify  ,01-02-2026,elena.alvarez@musica.es,Elena Álvarez,Silver,58481€,"diciembre 31, 2026"
+Monster Energy,2026-02-01,,David Ruiz,ORO,115651,31/09/2026
+  Adidas,1 de febrero de 2026,sandra.cabrera@yahoo.es,,bronce,38078,2026-08-31
+Nike,01-03-2026,paula.gil@gmail.com,Paula Gil,ORO,114962,31/10/2026
+Pepsi,1-ene-2026,tomas.soto@hotmail.com,Tomás Soto,GOLD,112690,2026-11-31
+Heineken,1/3/26,sara.navarro@yahoo.es,Sara Navarro,Oro ,119758,31-dic-2026
+Movistar,1/1/26,sara.navarro@outlook.com,Sara Navarro,BRONZE,42347,31/12/2026
+Vodafone,01/02/2026,,Isabel Gómez,PLATA,54642.00,"diciembre 31, 2026"
+Orange,1 de enero de 2026,marta.vazquez@management.com,Marta Vázquez,SILVER,53089€,31-08-2026
+Amazon,01-02-2026,felipe.carrasco@gmail.com,Felipe Carrasco,ORO,"107,892",31 de octubre de 2026
+Google,01/01/2026,daniel.castro@yahoo.es,Daniel Castro,BRONZE,43561,31-sep-2026
+Meta,01/03/2026,fernando.morales@gmail.com,Fernando Morales,SILVER,51294€,31-oct-2026
+Apple,1 de marzo de 2026,marta.vazquez@gmail.com,Marta Vázquez,Gold,104213,31/12/2026
+Microsoft  ,2026-03-01,ana.fernandez@yahoo.es,Ana Fernández,Plata,78948.00,31/08/2026
+Sony,01/02/2026,irene.prieto@yahoo.es,Irene Prieto,Bronce,28439,"septiembre 31, 2026"
+HP  ,2026-03-01,adrian.calvo@outlook.com,,Oro,99400€,31/08/2026
+Lenovo,"marzo 1, 2026",hugo.guerrero@hotmail.com,Hugo Guerrero,oro,110396,"noviembre 31, 2026"
+MERCADONA,01-02-2026,miguel.rodriguez@musica.es,Mario Girón,Silver,58015,31-nov-2026
+NATURGY,01/02/2026,rocio.suarez@hotmail.com,Víctor Blanco,Oro,80812,31-ago-2026
+telefónica,01/02/2026,clara.cano@management.com,Clara Cano,BRONZE,59683,31 de octubre de 2026
+MERCADONA,"marzo 1, 2026",david.ruiz@yahoo.es,José García,BRONZE,80076,31-oct-2026
+ Inditex ,1/3/26,alejandro.molina@management.com,Isabel Gómez,Oro ,42871,31 de noviembre de 2026
+contacto,email,fecha_fin,importe_patrocinio,categoria,nombre_empresa,fecha_inicio
+Gloria Ortiz,gloria.ortiz@musica.es,"septiembre 31, 2026",78597,SILVER,Telefónica,01-01-2026
+Fernando Morales,fernando.morales@musica.es,2026-10-31,"46,970",BRONCE,Banco Santander,1/3/26
+Roberto Cortés,roberto.cortes@outlook.com,31/10/26,55960,Plata,Iberdrola,2026-02-01
+Pedro Sánchez,,31/10/26,"57,184",Plata,  Repsol,1/2/26
+Adrián Calvo,adrian.calvo@management.com,31-ago-2026,"99,340",Oro,BBVA,1-ene-2026
+Ana Fernández,ana.fernandez@yahoo.es,31/08/2026,65979€,SILVER,Mapfre,1-feb-2026
+Marcos Peña,marcos.pena@musica.es,2026-11-31,46168,Plata,El Corte Inglés,1/1/26
+Pablo Santos,pablo.santos@musica.es,31/10/2026,51233,Plata,Mercadona,1-feb-2026
+Nuria Gallego,nuria.gallego@management.com,"agosto 31, 2026",52956,Silver,Inditex  ,"enero 1, 2026"
+,hugo.guerrero@gmail.com,31-ago-2026,39174,BRONCE,Endesa,1/3/26
+Sandra Cabrera,sandra.cabrera@outlook.com,"octubre 31, 2026",56163,Silver,CaixaBank,2026-01-01
+Sara Navarro,,"noviembre 31, 2026",46321,BRONZE,Naturgy,"marzo 1, 2026"
+,..eva.garrido.@musica.es,31-11-2026,20112€,BRONZE,Seat,1/1/26
+Marcos Peña,marcos.pena@hotmail.com,,44754,Bronze,Estrella Damm,"enero 1, 2026"
+,,31/09/2026,55760,Silver,Mahou  ,1 de enero de 2026
+Manuel Torres,manuel.torres@yahoo.es,2026-08-31,49792.00,Bronce,Red Bull,01/03/2026
+Rocío Suárez,rocio.suarez@gmail.com,2026-11-31,120068,Oro ,Coca-Cola,01/01/2026
+Carlos Martínez,carlos.martinez@outlook.com,31-08-2026,102548€,Gold,Samsung,1-ene-2026
+Elena Álvarez,elena.alvarez@musica.es,"diciembre 31, 2026",58481€,Silver,Spotify  ,01-02-2026
+David Ruiz,,31/09/2026,115651,ORO,Monster Energy,2026-02-01
+,sandra.cabrera@yahoo.es,2026-08-31,38078,bronce,  Adidas,1 de febrero de 2026
+Paula Gil,paula.gil@gmail.com,31/10/2026,114962,ORO,Nike,01-03-2026
+Tomás Soto,tomas.soto@hotmail.com,2026-11-31,112690,GOLD,Pepsi,1-ene-2026
+Sara Navarro,sara.navarro@yahoo.es,31-dic-2026,119758,Oro ,Heineken,1/3/26
+Sara Navarro,sara.navarro@outlook.com,31/12/2026,42347,BRONZE,Movistar,1/1/26
+Isabel Gómez,,"diciembre 31, 2026",54642.00,PLATA,Vodafone,01/02/2026
+Marta Vázquez,marta.vazquez@management.com,31-08-2026,53089€,SILVER,Orange,1 de enero de 2026
+Felipe Carrasco,felipe.carrasco@gmail.com,31 de octubre de 2026,"107,892",ORO,Amazon,01-02-2026
+Daniel Castro,daniel.castro@yahoo.es,31-sep-2026,43561,BRONZE,Google,01/01/2026
+Fernando Morales,fernando.morales@gmail.com,31-oct-2026,51294€,SILVER,Meta,01/03/2026
+Marta Vázquez,marta.vazquez@gmail.com,31/12/2026,104213,Gold,Apple,1 de marzo de 2026
+Ana Fernández,ana.fernandez@yahoo.es,31/08/2026,78948.00,Plata,Microsoft  ,2026-03-01
+Irene Prieto,irene.prieto@yahoo.es,"septiembre 31, 2026",28439,Bronce,Sony,01/02/2026
+,adrian.calvo@outlook.com,31/08/2026,99400€,Oro,HP  ,2026-03-01
+Hugo Guerrero,hugo.guerrero@hotmail.com,"noviembre 31, 2026",110396,oro,Lenovo,"marzo 1, 2026"
+Mario Girón,miguel.rodriguez@musica.es,31-nov-2026,58015,Silver,MERCADONA,01-02-2026
+Víctor Blanco,rocio.suarez@hotmail.com,31-ago-2026,80812,Oro,NATURGY,01/02/2026
+Clara Cano,clara.cano@management.com,31 de octubre de 2026,59683,BRONZE,telefónica,01/02/2026
+José García,david.ruiz@yahoo.es,31-oct-2026,80076,BRONZE,MERCADONA,"marzo 1, 2026"
+Isabel Gómez,alejandro.molina@management.com,31 de noviembre de 2026,42871,Oro , Inditex ,1/3/26
+importe_patrocinio,contacto,categoria,email,fecha_fin,nombre_empresa,fecha_inicio
+78597,Gloria Ortiz,SILVER,gloria.ortiz@musica.es,"septiembre 31, 2026",Telefónica,01-01-2026
+"46,970",Fernando Morales,BRONCE,fernando.morales@musica.es,2026-10-31,Banco Santander,1/3/26
+55960,Roberto Cortés,Plata,roberto.cortes@outlook.com,31/10/26,Iberdrola,2026-02-01
+"57,184",Pedro Sánchez,Plata,,31/10/26,  Repsol,1/2/26
+"99,340",Adrián Calvo,Oro,adrian.calvo@management.com,31-ago-2026,BBVA,1-ene-2026
+65979€,Ana Fernández,SILVER,ana.fernandez@yahoo.es,31/08/2026,Mapfre,1-feb-2026
+46168,Marcos Peña,Plata,marcos.pena@musica.es,2026-11-31,El Corte Inglés,1/1/26
+51233,Pablo Santos,Plata,pablo.santos@musica.es,31/10/2026,Mercadona,1-feb-2026
+52956,Nuria Gallego,Silver,nuria.gallego@management.com,"agosto 31, 2026",Inditex  ,"enero 1, 2026"
+39174,,BRONCE,hugo.guerrero@gmail.com,31-ago-2026,Endesa,1/3/26
+56163,Sandra Cabrera,Silver,sandra.cabrera@outlook.com,"octubre 31, 2026",CaixaBank,2026-01-01
+46321,Sara Navarro,BRONZE,,"noviembre 31, 2026",Naturgy,"marzo 1, 2026"
+20112€,,BRONZE,..eva.garrido.@musica.es,31-11-2026,Seat,1/1/26
+44754,Marcos Peña,Bronze,marcos.pena@hotmail.com,,Estrella Damm,"enero 1, 2026"
+55760,,Silver,,31/09/2026,Mahou  ,1 de enero de 2026
+49792.00,Manuel Torres,Bronce,manuel.torres@yahoo.es,2026-08-31,Red Bull,01/03/2026
+120068,Rocío Suárez,Oro ,rocio.suarez@gmail.com,2026-11-31,Coca-Cola,01/01/2026
+102548€,Carlos Martínez,Gold,carlos.martinez@outlook.com,31-08-2026,Samsung,1-ene-2026
+58481€,Elena Álvarez,Silver,elena.alvarez@musica.es,"diciembre 31, 2026",Spotify  ,01-02-2026
+115651,David Ruiz,ORO,,31/09/2026,Monster Energy,2026-02-01
+38078,,bronce,sandra.cabrera@yahoo.es,2026-08-31,  Adidas,1 de febrero de 2026
+114962,Paula Gil,ORO,paula.gil@gmail.com,31/10/2026,Nike,01-03-2026
+112690,Tomás Soto,GOLD,tomas.soto@hotmail.com,2026-11-31,Pepsi,1-ene-2026
+119758,Sara Navarro,Oro ,sara.navarro@yahoo.es,31-dic-2026,Heineken,1/3/26
+42347,Sara Navarro,BRONZE,sara.navarro@outlook.com,31/12/2026,Movistar,1/1/26
+54642.00,Isabel Gómez,PLATA,,"diciembre 31, 2026",Vodafone,01/02/2026
+53089€,Marta Vázquez,SILVER,marta.vazquez@management.com,31-08-2026,Orange,1 de enero de 2026
+"107,892",Felipe Carrasco,ORO,felipe.carrasco@gmail.com,31 de octubre de 2026,Amazon,01-02-2026
+43561,Daniel Castro,BRONZE,daniel.castro@yahoo.es,31-sep-2026,Google,01/01/2026
+51294€,Fernando Morales,SILVER,fernando.morales@gmail.com,31-oct-2026,Meta,01/03/2026
+104213,Marta Vázquez,Gold,marta.vazquez@gmail.com,31/12/2026,Apple,1 de marzo de 2026
+78948.00,Ana Fernández,Plata,ana.fernandez@yahoo.es,31/08/2026,Microsoft  ,2026-03-01
+28439,Irene Prieto,Bronce,irene.prieto@yahoo.es,"septiembre 31, 2026",Sony,01/02/2026
+99400€,,Oro,adrian.calvo@outlook.com,31/08/2026,HP  ,2026-03-01
+110396,Hugo Guerrero,oro,hugo.guerrero@hotmail.com,"noviembre 31, 2026",Lenovo,"marzo 1, 2026"
+58015,Mario Girón,Silver,miguel.rodriguez@musica.es,31-nov-2026,MERCADONA,01-02-2026
+80812,Víctor Blanco,Oro,rocio.suarez@hotmail.com,31-ago-2026,NATURGY,01/02/2026
+59683,Clara Cano,BRONZE,clara.cano@management.com,31 de octubre de 2026,telefónica,01/02/2026
+80076,José García,BRONZE,david.ruiz@yahoo.es,31-oct-2026,MERCADONA,"marzo 1, 2026"
+42871,Isabel Gómez,Oro ,alejandro.molina@management.com,31 de noviembre de 2026, Inditex ,1/3/26
+fecha_inicio,importe_patrocinio,nombre_empresa,contacto,email,categoria,fecha_fin
+01-01-2026,78597,Telefónica,Gloria Ortiz,gloria.ortiz@musica.es,SILVER,"septiembre 31, 2026"
+1/3/26,"46,970",Banco Santander,Fernando Morales,fernando.morales@musica.es,BRONCE,2026-10-31
+2026-02-01,55960,Iberdrola,Roberto Cortés,roberto.cortes@outlook.com,Plata,31/10/26
+1/2/26,"57,184",  Repsol,Pedro Sánchez,,Plata,31/10/26
+1-ene-2026,"99,340",BBVA,Adrián Calvo,adrian.calvo@management.com,Oro,31-ago-2026
+1-feb-2026,65979€,Mapfre,Ana Fernández,ana.fernandez@yahoo.es,SILVER,31/08/2026
+1/1/26,46168,El Corte Inglés,Marcos Peña,marcos.pena@musica.es,Plata,2026-11-31
+1-feb-2026,51233,Mercadona,Pablo Santos,pablo.santos@musica.es,Plata,31/10/2026
+"enero 1, 2026",52956,Inditex  ,Nuria Gallego,nuria.gallego@management.com,Silver,"agosto 31, 2026"
+1/3/26,39174,Endesa,,hugo.guerrero@gmail.com,BRONCE,31-ago-2026
+2026-01-01,56163,CaixaBank,Sandra Cabrera,sandra.cabrera@outlook.com,Silver,"octubre 31, 2026"
+"marzo 1, 2026",46321,Naturgy,Sara Navarro,,BRONZE,"noviembre 31, 2026"
+1/1/26,20112€,Seat,,..eva.garrido.@musica.es,BRONZE,31-11-2026
+"enero 1, 2026",44754,Estrella Damm,Marcos Peña,marcos.pena@hotmail.com,Bronze,
+1 de enero de 2026,55760,Mahou  ,,,Silver,31/09/2026
+01/03/2026,49792.00,Red Bull,Manuel Torres,manuel.torres@yahoo.es,Bronce,2026-08-31
+01/01/2026,120068,Coca-Cola,Rocío Suárez,rocio.suarez@gmail.com,Oro ,2026-11-31
+1-ene-2026,102548€,Samsung,Carlos Martínez,carlos.martinez@outlook.com,Gold,31-08-2026
+01-02-2026,58481€,Spotify  ,Elena Álvarez,elena.alvarez@musica.es,Silver,"diciembre 31, 2026"
+2026-02-01,115651,Monster Energy,David Ruiz,,ORO,31/09/2026
+1 de febrero de 2026,38078,  Adidas,,sandra.cabrera@yahoo.es,bronce,2026-08-31
+01-03-2026,114962,Nike,Paula Gil,paula.gil@gmail.com,ORO,31/10/2026
+1-ene-2026,112690,Pepsi,Tomás Soto,tomas.soto@hotmail.com,GOLD,2026-11-31
+1/3/26,119758,Heineken,Sara Navarro,sara.navarro@yahoo.es,Oro ,31-dic-2026
+1/1/26,42347,Movistar,Sara Navarro,sara.navarro@outlook.com,BRONZE,31/12/2026
+01/02/2026,54642.00,Vodafone,Isabel Gómez,,PLATA,"diciembre 31, 2026"
+1 de enero de 2026,53089€,Orange,Marta Vázquez,marta.vazquez@management.com,SILVER,31-08-2026
+01-02-2026,"107,892",Amazon,Felipe Carrasco,felipe.carrasco@gmail.com,ORO,31 de octubre de 2026
+01/01/2026,43561,Google,Daniel Castro,daniel.castro@yahoo.es,BRONZE,31-sep-2026
+01/03/2026,51294€,Meta,Fernando Morales,fernando.morales@gmail.com,SILVER,31-oct-2026
+1 de marzo de 2026,104213,Apple,Marta Vázquez,marta.vazquez@gmail.com,Gold,31/12/2026
+2026-03-01,78948.00,Microsoft  ,Ana Fernández,ana.fernandez@yahoo.es,Plata,31/08/2026
+01/02/2026,28439,Sony,Irene Prieto,irene.prieto@yahoo.es,Bronce,"septiembre 31, 2026"
+2026-03-01,99400€,HP  ,,adrian.calvo@outlook.com,Oro,31/08/2026
+"marzo 1, 2026",110396,Lenovo,Hugo Guerrero,hugo.guerrero@hotmail.com,oro,"noviembre 31, 2026"
+01-02-2026,58015,MERCADONA,Mario Girón,miguel.rodriguez@musica.es,Silver,31-nov-2026
+01/02/2026,80812,NATURGY,Víctor Blanco,rocio.suarez@hotmail.com,Oro,31-ago-2026
+01/02/2026,59683,telefónica,Clara Cano,clara.cano@management.com,BRONZE,31 de octubre de 2026
+"marzo 1, 2026",80076,MERCADONA,José García,david.ruiz@yahoo.es,BRONZE,31-oct-2026
+1/3/26,42871, Inditex ,Isabel Gómez,alejandro.molina@management.com,Oro ,31 de noviembre de 2026
+email,categoria,nombre_empresa,contacto,importe_patrocinio,fecha_inicio,fecha_fin
+gloria.ortiz@musica.es,SILVER,Telefónica,Gloria Ortiz,78597,01-01-2026,"septiembre 31, 2026"
+fernando.morales@musica.es,BRONCE,Banco Santander,Fernando Morales,"46,970",1/3/26,2026-10-31
+roberto.cortes@outlook.com,Plata,Iberdrola,Roberto Cortés,55960,2026-02-01,31/10/26
+,Plata,  Repsol,Pedro Sánchez,"57,184",1/2/26,31/10/26
+adrian.calvo@management.com,Oro,BBVA,Adrián Calvo,"99,340",1-ene-2026,31-ago-2026
+ana.fernandez@yahoo.es,SILVER,Mapfre,Ana Fernández,65979€,1-feb-2026,31/08/2026
+marcos.pena@musica.es,Plata,El Corte Inglés,Marcos Peña,46168,1/1/26,2026-11-31
+pablo.santos@musica.es,Plata,Mercadona,Pablo Santos,51233,1-feb-2026,31/10/2026
+nuria.gallego@management.com,Silver,Inditex  ,Nuria Gallego,52956,"enero 1, 2026","agosto 31, 2026"
+hugo.guerrero@gmail.com,BRONCE,Endesa,,39174,1/3/26,31-ago-2026
+sandra.cabrera@outlook.com,Silver,CaixaBank,Sandra Cabrera,56163,2026-01-01,"octubre 31, 2026"
+,BRONZE,Naturgy,Sara Navarro,46321,"marzo 1, 2026","noviembre 31, 2026"
+..eva.garrido.@musica.es,BRONZE,Seat,,20112€,1/1/26,31-11-2026
+marcos.pena@hotmail.com,Bronze,Estrella Damm,Marcos Peña,44754,"enero 1, 2026",
+,Silver,Mahou  ,,55760,1 de enero de 2026,31/09/2026
+manuel.torres@yahoo.es,Bronce,Red Bull,Manuel Torres,49792.00,01/03/2026,2026-08-31
+rocio.suarez@gmail.com,Oro ,Coca-Cola,Rocío Suárez,120068,01/01/2026,2026-11-31
+carlos.martinez@outlook.com,Gold,Samsung,Carlos Martínez,102548€,1-ene-2026,31-08-2026
+elena.alvarez@musica.es,Silver,Spotify  ,Elena Álvarez,58481€,01-02-2026,"diciembre 31, 2026"
+,ORO,Monster Energy,David Ruiz,115651,2026-02-01,31/09/2026
+sandra.cabrera@yahoo.es,bronce,  Adidas,,38078,1 de febrero de 2026,2026-08-31
+paula.gil@gmail.com,ORO,Nike,Paula Gil,114962,01-03-2026,31/10/2026
+tomas.soto@hotmail.com,GOLD,Pepsi,Tomás Soto,112690,1-ene-2026,2026-11-31
+sara.navarro@yahoo.es,Oro ,Heineken,Sara Navarro,119758,1/3/26,31-dic-2026
+sara.navarro@outlook.com,BRONZE,Movistar,Sara Navarro,42347,1/1/26,31/12/2026
+,PLATA,Vodafone,Isabel Gómez,54642.00,01/02/2026,"diciembre 31, 2026"
+marta.vazquez@management.com,SILVER,Orange,Marta Vázquez,53089€,1 de enero de 2026,31-08-2026
+felipe.carrasco@gmail.com,ORO,Amazon,Felipe Carrasco,"107,892",01-02-2026,31 de octubre de 2026
+daniel.castro@yahoo.es,BRONZE,Google,Daniel Castro,43561,01/01/2026,31-sep-2026
+fernando.morales@gmail.com,SILVER,Meta,Fernando Morales,51294€,01/03/2026,31-oct-2026
+marta.vazquez@gmail.com,Gold,Apple,Marta Vázquez,104213,1 de marzo de 2026,31/12/2026
+ana.fernandez@yahoo.es,Plata,Microsoft  ,Ana Fernández,78948.00,2026-03-01,31/08/2026
+irene.prieto@yahoo.es,Bronce,Sony,Irene Prieto,28439,01/02/2026,"septiembre 31, 2026"
+adrian.calvo@outlook.com,Oro,HP  ,,99400€,2026-03-01,31/08/2026
+hugo.guerrero@hotmail.com,oro,Lenovo,Hugo Guerrero,110396,"marzo 1, 2026","noviembre 31, 2026"
+miguel.rodriguez@musica.es,Silver,MERCADONA,Mario Girón,58015,01-02-2026,31-nov-2026
+rocio.suarez@hotmail.com,Oro,NATURGY,Víctor Blanco,80812,01/02/2026,31-ago-2026
+clara.cano@management.com,BRONZE,telefónica,Clara Cano,59683,01/02/2026,31 de octubre de 2026
+david.ruiz@yahoo.es,BRONZE,MERCADONA,José García,80076,"marzo 1, 2026",31-oct-2026
+alejandro.molina@management.com,Oro , Inditex ,Isabel Gómez,42871,1/3/26,31 de noviembre de 2026
+fecha_inicio,nombre_empresa,fecha_fin,categoria,contacto,email,importe_patrocinio
+01-01-2026,Telefónica,"septiembre 31, 2026",SILVER,Gloria Ortiz,gloria.ortiz@musica.es,78597
+1/3/26,Banco Santander,2026-10-31,BRONCE,Fernando Morales,fernando.morales@musica.es,"46,970"
+2026-02-01,Iberdrola,31/10/26,Plata,Roberto Cortés,roberto.cortes@outlook.com,55960
+1/2/26,  Repsol,31/10/26,Plata,Pedro Sánchez,,"57,184"
+1-ene-2026,BBVA,31-ago-2026,Oro,Adrián Calvo,adrian.calvo@management.com,"99,340"
+1-feb-2026,Mapfre,31/08/2026,SILVER,Ana Fernández,ana.fernandez@yahoo.es,65979€
+1/1/26,El Corte Inglés,2026-11-31,Plata,Marcos Peña,marcos.pena@musica.es,46168
+1-feb-2026,Mercadona,31/10/2026,Plata,Pablo Santos,pablo.santos@musica.es,51233
+"enero 1, 2026",Inditex  ,"agosto 31, 2026",Silver,Nuria Gallego,nuria.gallego@management.com,52956
+1/3/26,Endesa,31-ago-2026,BRONCE,,hugo.guerrero@gmail.com,39174
+2026-01-01,CaixaBank,"octubre 31, 2026",Silver,Sandra Cabrera,sandra.cabrera@outlook.com,56163
+"marzo 1, 2026",Naturgy,"noviembre 31, 2026",BRONZE,Sara Navarro,,46321
+1/1/26,Seat,31-11-2026,BRONZE,,..eva.garrido.@musica.es,20112€
+"enero 1, 2026",Estrella Damm,,Bronze,Marcos Peña,marcos.pena@hotmail.com,44754
+1 de enero de 2026,Mahou  ,31/09/2026,Silver,,,55760
+01/03/2026,Red Bull,2026-08-31,Bronce,Manuel Torres,manuel.torres@yahoo.es,49792.00
+01/01/2026,Coca-Cola,2026-11-31,Oro ,Rocío Suárez,rocio.suarez@gmail.com,120068
+1-ene-2026,Samsung,31-08-2026,Gold,Carlos Martínez,carlos.martinez@outlook.com,102548€
+01-02-2026,Spotify  ,"diciembre 31, 2026",Silver,Elena Álvarez,elena.alvarez@musica.es,58481€
+2026-02-01,Monster Energy,31/09/2026,ORO,David Ruiz,,115651
+1 de febrero de 2026,  Adidas,2026-08-31,bronce,,sandra.cabrera@yahoo.es,38078
+01-03-2026,Nike,31/10/2026,ORO,Paula Gil,paula.gil@gmail.com,114962
+1-ene-2026,Pepsi,2026-11-31,GOLD,Tomás Soto,tomas.soto@hotmail.com,112690
+1/3/26,Heineken,31-dic-2026,Oro ,Sara Navarro,sara.navarro@yahoo.es,119758
+1/1/26,Movistar,31/12/2026,BRONZE,Sara Navarro,sara.navarro@outlook.com,42347
+01/02/2026,Vodafone,"diciembre 31, 2026",PLATA,Isabel Gómez,,54642.00
+1 de enero de 2026,Orange,31-08-2026,SILVER,Marta Vázquez,marta.vazquez@management.com,53089€
+01-02-2026,Amazon,31 de octubre de 2026,ORO,Felipe Carrasco,felipe.carrasco@gmail.com,"107,892"
+01/01/2026,Google,31-sep-2026,BRONZE,Daniel Castro,daniel.castro@yahoo.es,43561
+01/03/2026,Meta,31-oct-2026,SILVER,Fernando Morales,fernando.morales@gmail.com,51294€
+1 de marzo de 2026,Apple,31/12/2026,Gold,Marta Vázquez,marta.vazquez@gmail.com,104213
+2026-03-01,Microsoft  ,31/08/2026,Plata,Ana Fernández,ana.fernandez@yahoo.es,78948.00
+01/02/2026,Sony,"septiembre 31, 2026",Bronce,Irene Prieto,irene.prieto@yahoo.es,28439
+2026-03-01,HP  ,31/08/2026,Oro,,adrian.calvo@outlook.com,99400€
+"marzo 1, 2026",Lenovo,"noviembre 31, 2026",oro,Hugo Guerrero,hugo.guerrero@hotmail.com,110396
+01-02-2026,MERCADONA,31-nov-2026,Silver,Mario Girón,miguel.rodriguez@musica.es,58015
+01/02/2026,NATURGY,31-ago-2026,Oro,Víctor Blanco,rocio.suarez@hotmail.com,80812
+01/02/2026,telefónica,31 de octubre de 2026,BRONZE,Clara Cano,clara.cano@management.com,59683
+"marzo 1, 2026",MERCADONA,31-oct-2026,BRONZE,José García,david.ruiz@yahoo.es,80076
+1/3/26, Inditex ,31 de noviembre de 2026,Oro ,Isabel Gómez,alejandro.molina@management.com,42871
+nombre_empresa,contacto,email,importe_patrocinio,categoria,fecha_inicio,fecha_fin
+Telefónica,Gloria Ortiz,Gloria.Ortiz@Musica.Es,78597,Plata,01-01-2026,"septiembre 31, 2026"
+Banco Santander,Fernando Morales,Fernando.Morales@Musica.Es,"46,970",Bronce,1/3/26,2026-10-31
+Iberdrola,Roberto Cortés,Roberto.Cortes@Outlook.Com,55960,Plata,2026-02-01,31/10/26
+Repsol,Pedro Sánchez,None,"57,184",Plata,1/2/26,31/10/26
+Bbva,Adrián Calvo,Adrian.Calvo@Management.Com,"99,340",Oro,1-ene-2026,31-ago-2026
+Mapfre,Ana Fernández,Ana.Fernandez@Yahoo.Es,65979€,Plata,1-feb-2026,31/08/2026
+El Corte Inglés,Marcos Peña,Marcos.Pena@Musica.Es,46168,Plata,1/1/26,2026-11-31
+Mercadona,Pablo Santos,Pablo.Santos@Musica.Es,51233,Plata,1-feb-2026,31/10/2026
+Inditex,Nuria Gallego,Nuria.Gallego@Management.Com,52956,Plata,"enero 1, 2026","agosto 31, 2026"
+Endesa,None,Hugo.Guerrero@Gmail.Com,39174,Bronce,1/3/26,31-ago-2026
+Caixabank,Sandra Cabrera,Sandra.Cabrera@Outlook.Com,56163,Plata,2026-01-01,"octubre 31, 2026"
+Naturgy,Sara Navarro,None,46321,Bronce,"marzo 1, 2026","noviembre 31, 2026"
+Seat,None,..Eva.Garrido.@Musica.Es,20112€,Bronce,1/1/26,31-11-2026
+Estrella Damm,Marcos Peña,Marcos.Pena@Hotmail.Com,44754,Bronce,"enero 1, 2026",
+Mahou,None,None,55760,Plata,1 de enero de 2026,31/09/2026
+Red Bull,Manuel Torres,Manuel.Torres@Yahoo.Es,49792.00,Bronce,01/03/2026,2026-08-31
+Coca-Cola,Rocío Suárez,Rocio.Suarez@Gmail.Com,120068,Oro,01/01/2026,2026-11-31
+Samsung,Carlos Martínez,Carlos.Martinez@Outlook.Com,102548€,Oro,1-ene-2026,31-08-2026
+Spotify,Elena Álvarez,Elena.Alvarez@Musica.Es,58481€,Plata,01-02-2026,"diciembre 31, 2026"
+Monster Energy,David Ruiz,None,115651,Oro,2026-02-01,31/09/2026
+Adidas,None,Sandra.Cabrera@Yahoo.Es,38078,Bronce,1 de febrero de 2026,2026-08-31
+Nike,Paula Gil,Paula.Gil@Gmail.Com,114962,Oro,01-03-2026,31/10/2026
+Pepsi,Tomás Soto,Tomas.Soto@Hotmail.Com,112690,Oro,1-ene-2026,2026-11-31
+Heineken,Sara Navarro,Sara.Navarro@Yahoo.Es,119758,Oro,1/3/26,31-dic-2026
+Movistar,Sara Navarro,Sara.Navarro@Outlook.Com,42347,Bronce,1/1/26,31/12/2026
+Vodafone,Isabel Gómez,None,54642.00,Plata,01/02/2026,"diciembre 31, 2026"
+Orange,Marta Vázquez,Marta.Vazquez@Management.Com,53089€,Plata,1 de enero de 2026,31-08-2026
+Amazon,Felipe Carrasco,Felipe.Carrasco@Gmail.Com,"107,892",Oro,01-02-2026,31 de octubre de 2026
+Google,Daniel Castro,Daniel.Castro@Yahoo.Es,43561,Bronce,01/01/2026,31-sep-2026
+Meta,Fernando Morales,Fernando.Morales@Gmail.Com,51294€,Plata,01/03/2026,31-oct-2026
+Apple,Marta Vázquez,Marta.Vazquez@Gmail.Com,104213,Oro,1 de marzo de 2026,31/12/2026
+Microsoft,Ana Fernández,Ana.Fernandez@Yahoo.Es,78948.00,Plata,2026-03-01,31/08/2026
+Sony,Irene Prieto,Irene.Prieto@Yahoo.Es,28439,Bronce,01/02/2026,"septiembre 31, 2026"
+Hp,None,Adrian.Calvo@Outlook.Com,99400€,Oro,2026-03-01,31/08/2026
+Lenovo,Hugo Guerrero,Hugo.Guerrero@Hotmail.Com,110396,Oro,"marzo 1, 2026","noviembre 31, 2026"
+Mercadona,Mario Girón,Miguel.Rodriguez@Musica.Es,58015,Plata,01-02-2026,31-nov-2026
+Naturgy,Víctor Blanco,Rocio.Suarez@Hotmail.Com,80812,Oro,01/02/2026,31-ago-2026
+Telefónica,Clara Cano,Clara.Cano@Management.Com,59683,Bronce,01/02/2026,31 de octubre de 2026
+Mercadona,José García,David.Ruiz@Yahoo.Es,80076,Bronce,"marzo 1, 2026",31-oct-2026
+Inditex,Isabel Gómez,Alejandro.Molina@Management.Com,42871,Oro,1/3/26,31 de noviembre de 2026
+nombre_empresa,contacto,email,importe_patrocinio,categoria,fecha_inicio,fecha_fin
+Telefónica,Gloria Ortiz,Gloria.Ortiz@Musica.Es,78597,Plata,01-01-2026,"septiembre 31, 2026"
+Banco Santander,Fernando Morales,Fernando.Morales@Musica.Es,"46,970",Bronce,1/3/26,2026-10-31
+Iberdrola,Roberto Cortés,Roberto.Cortes@Outlook.Com,55960,Plata,2026-02-01,31/10/26
+Repsol,Pedro Sánchez,None,"57,184",Plata,1/2/26,31/10/26
+Bbva,Adrián Calvo,Adrian.Calvo@Management.Com,"99,340",Oro,1-ene-2026,31-ago-2026
+Mapfre,Ana Fernández,Ana.Fernandez@Yahoo.Es,65979€,Plata,1-feb-2026,31/08/2026
+El Corte Inglés,Marcos Peña,Marcos.Pena@Musica.Es,46168,Plata,1/1/26,2026-11-31
+Mercadona,Pablo Santos,Pablo.Santos@Musica.Es,51233,Plata,1-feb-2026,31/10/2026
+Inditex,Nuria Gallego,Nuria.Gallego@Management.Com,52956,Plata,"enero 1, 2026","agosto 31, 2026"
+Endesa,None,Hugo.Guerrero@Gmail.Com,39174,Bronce,1/3/26,31-ago-2026
+Caixabank,Sandra Cabrera,Sandra.Cabrera@Outlook.Com,56163,Plata,2026-01-01,"octubre 31, 2026"
+Naturgy,Sara Navarro,None,46321,Bronce,"marzo 1, 2026","noviembre 31, 2026"
+Seat,None,..Eva.Garrido.@Musica.Es,20112€,Bronce,1/1/26,31-11-2026
+Estrella Damm,Marcos Peña,Marcos.Pena@Hotmail.Com,44754,Bronce,"enero 1, 2026",
+Mahou,None,None,55760,Plata,1 de enero de 2026,31/09/2026
+Red Bull,Manuel Torres,Manuel.Torres@Yahoo.Es,49792.00,Bronce,01/03/2026,2026-08-31
+Coca-Cola,Rocío Suárez,Rocio.Suarez@Gmail.Com,120068,Oro,01/01/2026,2026-11-31
+Samsung,Carlos Martínez,Carlos.Martinez@Outlook.Com,102548€,Oro,1-ene-2026,31-08-2026
+Spotify,Elena Álvarez,Elena.Alvarez@Musica.Es,58481€,Plata,01-02-2026,"diciembre 31, 2026"
+Monster Energy,David Ruiz,None,115651,Oro,2026-02-01,31/09/2026
+Adidas,None,Sandra.Cabrera@Yahoo.Es,38078,Bronce,1 de febrero de 2026,2026-08-31
+Nike,Paula Gil,Paula.Gil@Gmail.Com,114962,Oro,01-03-2026,31/10/2026
+Pepsi,Tomás Soto,Tomas.Soto@Hotmail.Com,112690,Oro,1-ene-2026,2026-11-31
+Heineken,Sara Navarro,Sara.Navarro@Yahoo.Es,119758,Oro,1/3/26,31-dic-2026
+Movistar,Sara Navarro,Sara.Navarro@Outlook.Com,42347,Bronce,1/1/26,31/12/2026
+Vodafone,Isabel Gómez,None,54642.00,Plata,01/02/2026,"diciembre 31, 2026"
+Orange,Marta Vázquez,Marta.Vazquez@Management.Com,53089€,Plata,1 de enero de 2026,31-08-2026
+Amazon,Felipe Carrasco,Felipe.Carrasco@Gmail.Com,"107,892",Oro,01-02-2026,31 de octubre de 2026
+Google,Daniel Castro,Daniel.Castro@Yahoo.Es,43561,Bronce,01/01/2026,31-sep-2026
+Meta,Fernando Morales,Fernando.Morales@Gmail.Com,51294€,Plata,01/03/2026,31-oct-2026
+Apple,Marta Vázquez,Marta.Vazquez@Gmail.Com,104213,Oro,1 de marzo de 2026,31/12/2026
+Microsoft,Ana Fernández,Ana.Fernandez@Yahoo.Es,78948.00,Plata,2026-03-01,31/08/2026
+Sony,Irene Prieto,Irene.Prieto@Yahoo.Es,28439,Bronce,01/02/2026,"septiembre 31, 2026"
+Hp,None,Adrian.Calvo@Outlook.Com,99400€,Oro,2026-03-01,31/08/2026
+Lenovo,Hugo Guerrero,Hugo.Guerrero@Hotmail.Com,110396,Oro,"marzo 1, 2026","noviembre 31, 2026"
+Mercadona,Mario Girón,Miguel.Rodriguez@Musica.Es,58015,Plata,01-02-2026,31-nov-2026
+Naturgy,Víctor Blanco,Rocio.Suarez@Hotmail.Com,80812,Oro,01/02/2026,31-ago-2026
+Telefónica,Clara Cano,Clara.Cano@Management.Com,59683,Bronce,01/02/2026,31 de octubre de 2026
+Mercadona,José García,David.Ruiz@Yahoo.Es,80076,Bronce,"marzo 1, 2026",31-oct-2026
+Inditex,Isabel Gómez,Alejandro.Molina@Management.Com,42871,Oro,1/3/26,31 de noviembre de 2026
+nombre_empresa,contacto,email,importe_patrocinio,categoria,fecha_inicio,fecha_fin
+Telefónica,Gloria Ortiz,Gloria.Ortiz@Musica.Es,78597,Plata,01-01-2026,"septiembre 31, 2026"
+Banco Santander,Fernando Morales,Fernando.Morales@Musica.Es,"46,970",Bronce,1/3/26,2026-10-31
+Iberdrola,Roberto Cortés,Roberto.Cortes@Outlook.Com,55960,Plata,2026-02-01,31/10/26
+Repsol,Pedro Sánchez,None,"57,184",Plata,1/2/26,31/10/26
+Bbva,Adrián Calvo,Adrian.Calvo@Management.Com,"99,340",Oro,1-ene-2026,31-ago-2026
+Mapfre,Ana Fernández,Ana.Fernandez@Yahoo.Es,65979€,Plata,1-feb-2026,31/08/2026
+El Corte Inglés,Marcos Peña,Marcos.Pena@Musica.Es,46168,Plata,1/1/26,2026-11-31
+Mercadona,Pablo Santos,Pablo.Santos@Musica.Es,51233,Plata,1-feb-2026,31/10/2026
+Inditex,Nuria Gallego,Nuria.Gallego@Management.Com,52956,Plata,"enero 1, 2026","agosto 31, 2026"
+Endesa,None,Hugo.Guerrero@Gmail.Com,39174,Bronce,1/3/26,31-ago-2026
+Caixabank,Sandra Cabrera,Sandra.Cabrera@Outlook.Com,56163,Plata,2026-01-01,"octubre 31, 2026"
+Naturgy,Sara Navarro,None,46321,Bronce,"marzo 1, 2026","noviembre 31, 2026"
+Seat,None,..Eva.Garrido.@Musica.Es,20112€,Bronce,1/1/26,31-11-2026
+Estrella Damm,Marcos Peña,Marcos.Pena@Hotmail.Com,44754,Bronce,"enero 1, 2026",
+Mahou,None,None,55760,Plata,1 de enero de 2026,31/09/2026
+Red Bull,Manuel Torres,Manuel.Torres@Yahoo.Es,49792.00,Bronce,01/03/2026,2026-08-31
+Coca-Cola,Rocío Suárez,Rocio.Suarez@Gmail.Com,120068,Oro,01/01/2026,2026-11-31
+Samsung,Carlos Martínez,Carlos.Martinez@Outlook.Com,102548€,Oro,1-ene-2026,31-08-2026
+Spotify,Elena Álvarez,Elena.Alvarez@Musica.Es,58481€,Plata,01-02-2026,"diciembre 31, 2026"
+Monster Energy,David Ruiz,None,115651,Oro,2026-02-01,31/09/2026
+Adidas,None,Sandra.Cabrera@Yahoo.Es,38078,Bronce,1 de febrero de 2026,2026-08-31
+Nike,Paula Gil,Paula.Gil@Gmail.Com,114962,Oro,01-03-2026,31/10/2026
+Pepsi,Tomás Soto,Tomas.Soto@Hotmail.Com,112690,Oro,1-ene-2026,2026-11-31
+Heineken,Sara Navarro,Sara.Navarro@Yahoo.Es,119758,Oro,1/3/26,31-dic-2026
+Movistar,Sara Navarro,Sara.Navarro@Outlook.Com,42347,Bronce,1/1/26,31/12/2026
+Vodafone,Isabel Gómez,None,54642.00,Plata,01/02/2026,"diciembre 31, 2026"
+Orange,Marta Vázquez,Marta.Vazquez@Management.Com,53089€,Plata,1 de enero de 2026,31-08-2026
+Amazon,Felipe Carrasco,Felipe.Carrasco@Gmail.Com,"107,892",Oro,01-02-2026,31 de octubre de 2026
+Google,Daniel Castro,Daniel.Castro@Yahoo.Es,43561,Bronce,01/01/2026,31-sep-2026
+Meta,Fernando Morales,Fernando.Morales@Gmail.Com,51294€,Plata,01/03/2026,31-oct-2026
+Apple,Marta Vázquez,Marta.Vazquez@Gmail.Com,104213,Oro,1 de marzo de 2026,31/12/2026
+Microsoft,Ana Fernández,Ana.Fernandez@Yahoo.Es,78948.00,Plata,2026-03-01,31/08/2026
+Sony,Irene Prieto,Irene.Prieto@Yahoo.Es,28439,Bronce,01/02/2026,"septiembre 31, 2026"
+Hp,None,Adrian.Calvo@Outlook.Com,99400€,Oro,2026-03-01,31/08/2026
+Lenovo,Hugo Guerrero,Hugo.Guerrero@Hotmail.Com,110396,Oro,"marzo 1, 2026","noviembre 31, 2026"
+Mercadona,Mario Girón,Miguel.Rodriguez@Musica.Es,58015,Plata,01-02-2026,31-nov-2026
+Naturgy,Víctor Blanco,Rocio.Suarez@Hotmail.Com,80812,Oro,01/02/2026,31-ago-2026
+Telefónica,Clara Cano,Clara.Cano@Management.Com,59683,Bronce,01/02/2026,31 de octubre de 2026
+Mercadona,José García,David.Ruiz@Yahoo.Es,80076,Bronce,"marzo 1, 2026",31-oct-2026
+Inditex,Isabel Gómez,Alejandro.Molina@Management.Com,42871,Oro,1/3/26,31 de noviembre de 2026
+nombre_empresa,contacto,email,importe_patrocinio,categoria,fecha_inicio,fecha_fin
+Telefónica,Gloria Ortiz,Gloria.Ortiz@Musica.Es,78597,Plata,01-01-2026,"septiembre 31, 2026"
+Banco Santander,Fernando Morales,Fernando.Morales@Musica.Es,"46,970",Bronce,1/3/26,2026-10-31
+Iberdrola,Roberto Cortés,Roberto.Cortes@Outlook.Com,55960,Plata,2026-02-01,31/10/26
+Repsol,Pedro Sánchez,None,"57,184",Plata,1/2/26,31/10/26
+Bbva,Adrián Calvo,Adrian.Calvo@Management.Com,"99,340",Oro,1-ene-2026,31-ago-2026
+Mapfre,Ana Fernández,Ana.Fernandez@Yahoo.Es,65979€,Plata,1-feb-2026,31/08/2026
+El Corte Inglés,Marcos Peña,Marcos.Pena@Musica.Es,46168,Plata,1/1/26,2026-11-31
+Mercadona,Pablo Santos,Pablo.Santos@Musica.Es,51233,Plata,1-feb-2026,31/10/2026
+Inditex,Nuria Gallego,Nuria.Gallego@Management.Com,52956,Plata,"enero 1, 2026","agosto 31, 2026"
+Endesa,None,Hugo.Guerrero@Gmail.Com,39174,Bronce,1/3/26,31-ago-2026
+Caixabank,Sandra Cabrera,Sandra.Cabrera@Outlook.Com,56163,Plata,2026-01-01,"octubre 31, 2026"
+Naturgy,Sara Navarro,None,46321,Bronce,"marzo 1, 2026","noviembre 31, 2026"
+Seat,None,..Eva.Garrido.@Musica.Es,20112€,Bronce,1/1/26,31-11-2026
+Estrella Damm,Marcos Peña,Marcos.Pena@Hotmail.Com,44754,Bronce,"enero 1, 2026",
+Mahou,None,None,55760,Plata,1 de enero de 2026,31/09/2026
+Red Bull,Manuel Torres,Manuel.Torres@Yahoo.Es,49792.00,Bronce,01/03/2026,2026-08-31
+Coca-Cola,Rocío Suárez,Rocio.Suarez@Gmail.Com,120068,Oro,01/01/2026,2026-11-31
+Samsung,Carlos Martínez,Carlos.Martinez@Outlook.Com,102548€,Oro,1-ene-2026,31-08-2026
+Spotify,Elena Álvarez,Elena.Alvarez@Musica.Es,58481€,Plata,01-02-2026,"diciembre 31, 2026"
+Monster Energy,David Ruiz,None,115651,Oro,2026-02-01,31/09/2026
+Adidas,None,Sandra.Cabrera@Yahoo.Es,38078,Bronce,1 de febrero de 2026,2026-08-31
+Nike,Paula Gil,Paula.Gil@Gmail.Com,114962,Oro,01-03-2026,31/10/2026
+Pepsi,Tomás Soto,Tomas.Soto@Hotmail.Com,112690,Oro,1-ene-2026,2026-11-31
+Heineken,Sara Navarro,Sara.Navarro@Yahoo.Es,119758,Oro,1/3/26,31-dic-2026
+Movistar,Sara Navarro,Sara.Navarro@Outlook.Com,42347,Bronce,1/1/26,31/12/2026
+Vodafone,Isabel Gómez,None,54642.00,Plata,01/02/2026,"diciembre 31, 2026"
+Orange,Marta Vázquez,Marta.Vazquez@Management.Com,53089€,Plata,1 de enero de 2026,31-08-2026
+Amazon,Felipe Carrasco,Felipe.Carrasco@Gmail.Com,"107,892",Oro,01-02-2026,31 de octubre de 2026
+Google,Daniel Castro,Daniel.Castro@Yahoo.Es,43561,Bronce,01/01/2026,31-sep-2026
+Meta,Fernando Morales,Fernando.Morales@Gmail.Com,51294€,Plata,01/03/2026,31-oct-2026
+Apple,Marta Vázquez,Marta.Vazquez@Gmail.Com,104213,Oro,1 de marzo de 2026,31/12/2026
+Microsoft,Ana Fernández,Ana.Fernandez@Yahoo.Es,78948.00,Plata,2026-03-01,31/08/2026
+Sony,Irene Prieto,Irene.Prieto@Yahoo.Es,28439,Bronce,01/02/2026,"septiembre 31, 2026"
+Hp,None,Adrian.Calvo@Outlook.Com,99400€,Oro,2026-03-01,31/08/2026
+Lenovo,Hugo Guerrero,Hugo.Guerrero@Hotmail.Com,110396,Oro,"marzo 1, 2026","noviembre 31, 2026"
+Mercadona,Mario Girón,Miguel.Rodriguez@Musica.Es,58015,Plata,01-02-2026,31-nov-2026
+Naturgy,Víctor Blanco,Rocio.Suarez@Hotmail.Com,80812,Oro,01/02/2026,31-ago-2026
+Telefónica,Clara Cano,Clara.Cano@Management.Com,59683,Bronce,01/02/2026,31 de octubre de 2026
+Mercadona,José García,David.Ruiz@Yahoo.Es,80076,Bronce,"marzo 1, 2026",31-oct-2026
+Inditex,Isabel Gómez,Alejandro.Molina@Management.Com,42871,Oro,1/3/26,31 de noviembre de 2026
+nombre_empresa,contacto,email,importe_patrocinio,categoria,fecha_inicio,fecha_fin
+Telefónica,Gloria Ortiz,Gloria.Ortiz@Musica.Es,78597.0,Plata,01/01/2026,31/9/2026
+Banco Santander,Fernando Morales,Fernando.Morales@Musica.Es,46.97,Bronce,1/03/26,31/10/2026
+Iberdrola,Roberto Cortés,Roberto.Cortes@Outlook.Com,55960.0,Plata,01/02/2026,31/10/26
+Repsol,Pedro Sánchez,None,57.18,Plata,1/02/26,31/10/26
+Bbva,Adrián Calvo,Adrian.Calvo@Management.Com,99.34,Oro,1/01/2026,31/08/2026
+Mapfre,Ana Fernández,Ana.Fernandez@Yahoo.Es,65979.0,Plata,1/02/2026,31/08/2026
+El Corte Inglés,Marcos Peña,Marcos.Pena@Musica.Es,46168.0,Plata,1/01/26,31/11/2026
+Mercadona,Pablo Santos,Pablo.Santos@Musica.Es,51233.0,Plata,1/02/2026,31/10/2026
+Inditex,Nuria Gallego,Nuria.Gallego@Management.Com,52956.0,Plata,1/1/2026,31/8/2026
+Endesa,None,Hugo.Guerrero@Gmail.Com,39174.0,Bronce,1/03/26,31/08/2026
+Caixabank,Sandra Cabrera,Sandra.Cabrera@Outlook.Com,56163.0,Plata,01/01/2026,31/10/2026
+Naturgy,Sara Navarro,None,46321.0,Bronce,1/3/2026,31/11/2026
+Seat,None,..Eva.Garrido.@Musica.Es,20112.0,Bronce,1/01/26,31/11/2026
+Estrella Damm,Marcos Peña,Marcos.Pena@Hotmail.Com,44754.0,Bronce,1/1/2026,None
+Mahou,None,None,55760.0,Plata,1/01/2026,31/09/2026
+Red Bull,Manuel Torres,Manuel.Torres@Yahoo.Es,49792.0,Bronce,01/03/2026,31/08/2026
+Coca-Cola,Rocío Suárez,Rocio.Suarez@Gmail.Com,120068.0,Oro,01/01/2026,31/11/2026
+Samsung,Carlos Martínez,Carlos.Martinez@Outlook.Com,102548.0,Oro,1/01/2026,31/08/2026
+Spotify,Elena Álvarez,Elena.Alvarez@Musica.Es,58481.0,Plata,01/02/2026,31/12/2026
+Monster Energy,David Ruiz,None,115651.0,Oro,01/02/2026,31/09/2026
+Adidas,None,Sandra.Cabrera@Yahoo.Es,38078.0,Bronce,1/02/2026,31/08/2026
+Nike,Paula Gil,Paula.Gil@Gmail.Com,114962.0,Oro,01/03/2026,31/10/2026
+Pepsi,Tomás Soto,Tomas.Soto@Hotmail.Com,112690.0,Oro,1/01/2026,31/11/2026
+Heineken,Sara Navarro,Sara.Navarro@Yahoo.Es,119758.0,Oro,1/03/26,31/12/2026
+Movistar,Sara Navarro,Sara.Navarro@Outlook.Com,42347.0,Bronce,1/01/26,31/12/2026
+Vodafone,Isabel Gómez,None,54642.0,Plata,01/02/2026,31/12/2026
+Orange,Marta Vázquez,Marta.Vazquez@Management.Com,53089.0,Plata,1/01/2026,31/08/2026
+Amazon,Felipe Carrasco,Felipe.Carrasco@Gmail.Com,107.89,Oro,01/02/2026,31/10/2026
+Google,Daniel Castro,Daniel.Castro@Yahoo.Es,43561.0,Bronce,01/01/2026,31/09/2026
+Meta,Fernando Morales,Fernando.Morales@Gmail.Com,51294.0,Plata,01/03/2026,31/10/2026
+Apple,Marta Vázquez,Marta.Vazquez@Gmail.Com,104213.0,Oro,1/03/2026,31/12/2026
+Microsoft,Ana Fernández,Ana.Fernandez@Yahoo.Es,78948.0,Plata,01/03/2026,31/08/2026
+Sony,Irene Prieto,Irene.Prieto@Yahoo.Es,28439.0,Bronce,01/02/2026,31/9/2026
+Hp,None,Adrian.Calvo@Outlook.Com,99400.0,Oro,01/03/2026,31/08/2026
+Lenovo,Hugo Guerrero,Hugo.Guerrero@Hotmail.Com,110396.0,Oro,1/3/2026,31/11/2026
+Mercadona,Mario Girón,Miguel.Rodriguez@Musica.Es,58015.0,Plata,01/02/2026,31/11/2026
+Naturgy,Víctor Blanco,Rocio.Suarez@Hotmail.Com,80812.0,Oro,01/02/2026,31/08/2026
+Telefónica,Clara Cano,Clara.Cano@Management.Com,59683.0,Bronce,01/02/2026,31/10/2026
+Mercadona,José García,David.Ruiz@Yahoo.Es,80076.0,Bronce,1/3/2026,31/10/2026
+Inditex,Isabel Gómez,Alejandro.Molina@Management.Com,42871.0,Oro,1/03/26,31/11/2026
+nombre_empresa,contacto,email,importe_patrocinio,categoria,fecha_inicio,fecha_fin
+Telefónica,Gloria Ortiz,Gloria.Ortiz@Musica.Es,78597.0,Plata,01/01/2026,31/9/2026
+Banco Santander,Fernando Morales,Fernando.Morales@Musica.Es,46.97,Bronce,1/03/26,31/10/2026
+Iberdrola,Roberto Cortés,Roberto.Cortes@Outlook.Com,55960.0,Plata,01/02/2026,31/10/26
+Repsol,Pedro Sánchez,None,57.18,Plata,1/02/26,31/10/26
+Bbva,Adrián Calvo,Adrian.Calvo@Management.Com,99.34,Oro,1/01/2026,31/08/2026
+Mapfre,Ana Fernández,Ana.Fernandez@Yahoo.Es,65979.0,Plata,1/02/2026,31/08/2026
+El Corte Inglés,Marcos Peña,Marcos.Pena@Musica.Es,46168.0,Plata,1/01/26,31/11/2026
+Mercadona,Pablo Santos,Pablo.Santos@Musica.Es,51233.0,Plata,1/02/2026,31/10/2026
+Inditex,Nuria Gallego,Nuria.Gallego@Management.Com,52956.0,Plata,1/1/2026,31/8/2026
+Endesa,None,Hugo.Guerrero@Gmail.Com,39174.0,Bronce,1/03/26,31/08/2026
+Caixabank,Sandra Cabrera,Sandra.Cabrera@Outlook.Com,56163.0,Plata,01/01/2026,31/10/2026
+Naturgy,Sara Navarro,None,46321.0,Bronce,1/3/2026,31/11/2026
+Seat,None,..Eva.Garrido.@Musica.Es,20112.0,Bronce,1/01/26,31/11/2026
+Estrella Damm,Marcos Peña,Marcos.Pena@Hotmail.Com,44754.0,Bronce,1/1/2026,None
+Mahou,None,None,55760.0,Plata,1/01/2026,31/09/2026
+Red Bull,Manuel Torres,Manuel.Torres@Yahoo.Es,49792.0,Bronce,01/03/2026,31/08/2026
+Coca-Cola,Rocío Suárez,Rocio.Suarez@Gmail.Com,120068.0,Oro,01/01/2026,31/11/2026
+Samsung,Carlos Martínez,Carlos.Martinez@Outlook.Com,102548.0,Oro,1/01/2026,31/08/2026
+Spotify,Elena Álvarez,Elena.Alvarez@Musica.Es,58481.0,Plata,01/02/2026,31/12/2026
+Monster Energy,David Ruiz,None,115651.0,Oro,01/02/2026,31/09/2026
+Adidas,None,Sandra.Cabrera@Yahoo.Es,38078.0,Bronce,1/02/2026,31/08/2026
+Nike,Paula Gil,Paula.Gil@Gmail.Com,114962.0,Oro,01/03/2026,31/10/2026
+Pepsi,Tomás Soto,Tomas.Soto@Hotmail.Com,112690.0,Oro,1/01/2026,31/11/2026
+Heineken,Sara Navarro,Sara.Navarro@Yahoo.Es,119758.0,Oro,1/03/26,31/12/2026
+Movistar,Sara Navarro,Sara.Navarro@Outlook.Com,42347.0,Bronce,1/01/26,31/12/2026
+Vodafone,Isabel Gómez,None,54642.0,Plata,01/02/2026,31/12/2026
+Orange,Marta Vázquez,Marta.Vazquez@Management.Com,53089.0,Plata,1/01/2026,31/08/2026
+Amazon,Felipe Carrasco,Felipe.Carrasco@Gmail.Com,107.89,Oro,01/02/2026,31/10/2026
+Google,Daniel Castro,Daniel.Castro@Yahoo.Es,43561.0,Bronce,01/01/2026,31/09/2026
+Meta,Fernando Morales,Fernando.Morales@Gmail.Com,51294.0,Plata,01/03/2026,31/10/2026
+Apple,Marta Vázquez,Marta.Vazquez@Gmail.Com,104213.0,Oro,1/03/2026,31/12/2026
+Microsoft,Ana Fernández,Ana.Fernandez@Yahoo.Es,78948.0,Plata,01/03/2026,31/08/2026
+Sony,Irene Prieto,Irene.Prieto@Yahoo.Es,28439.0,Bronce,01/02/2026,31/9/2026
+Hp,None,Adrian.Calvo@Outlook.Com,99400.0,Oro,01/03/2026,31/08/2026
+Lenovo,Hugo Guerrero,Hugo.Guerrero@Hotmail.Com,110396.0,Oro,1/3/2026,31/11/2026
+Mercadona,Mario Girón,Miguel.Rodriguez@Musica.Es,58015.0,Plata,01/02/2026,31/11/2026
+Naturgy,Víctor Blanco,Rocio.Suarez@Hotmail.Com,80812.0,Oro,01/02/2026,31/08/2026
+Telefónica,Clara Cano,Clara.Cano@Management.Com,59683.0,Bronce,01/02/2026,31/10/2026
+Mercadona,José García,David.Ruiz@Yahoo.Es,80076.0,Bronce,1/3/2026,31/10/2026
+Inditex,Isabel Gómez,Alejandro.Molina@Management.Com,42871.0,Oro,1/03/26,31/11/2026
+nombre_empresa,contacto,email,importe_patrocinio,categoria,fecha_inicio,fecha_fin
+Telefónica,Gloria Ortiz,Gloria.Ortiz@Musica.Es,78597.0,Plata,01/01/2026,31/9/2026
+Banco Santander,Fernando Morales,Fernando.Morales@Musica.Es,46.97,Bronce,1/03/26,31/10/2026
+Iberdrola,Roberto Cortés,Roberto.Cortes@Outlook.Com,55960.0,Plata,01/02/2026,31/10/26
+Repsol,Pedro Sánchez,None,57.18,Plata,1/02/26,31/10/26
+Bbva,Adrián Calvo,Adrian.Calvo@Management.Com,99.34,Oro,1/01/2026,31/08/2026
+Mapfre,Ana Fernández,Ana.Fernandez@Yahoo.Es,65979.0,Plata,1/02/2026,31/08/2026
+El Corte Inglés,Marcos Peña,Marcos.Pena@Musica.Es,46168.0,Plata,1/01/26,31/11/2026
+Mercadona,Pablo Santos,Pablo.Santos@Musica.Es,51233.0,Plata,1/02/2026,31/10/2026
+Inditex,Nuria Gallego,Nuria.Gallego@Management.Com,52956.0,Plata,1/1/2026,31/8/2026
+Endesa,None,Hugo.Guerrero@Gmail.Com,39174.0,Bronce,1/03/26,31/08/2026
+Caixabank,Sandra Cabrera,Sandra.Cabrera@Outlook.Com,56163.0,Plata,01/01/2026,31/10/2026
+Naturgy,Sara Navarro,None,46321.0,Bronce,1/3/2026,31/11/2026
+Seat,None,..Eva.Garrido.@Musica.Es,20112.0,Bronce,1/01/26,31/11/2026
+Estrella Damm,Marcos Peña,Marcos.Pena@Hotmail.Com,44754.0,Bronce,1/1/2026,None
+Mahou,None,None,55760.0,Plata,1/01/2026,31/09/2026
+Red Bull,Manuel Torres,Manuel.Torres@Yahoo.Es,49792.0,Bronce,01/03/2026,31/08/2026
+Coca-Cola,Rocío Suárez,Rocio.Suarez@Gmail.Com,120068.0,Oro,01/01/2026,31/11/2026
+Samsung,Carlos Martínez,Carlos.Martinez@Outlook.Com,102548.0,Oro,1/01/2026,31/08/2026
+Spotify,Elena Álvarez,Elena.Alvarez@Musica.Es,58481.0,Plata,01/02/2026,31/12/2026
+Monster Energy,David Ruiz,None,115651.0,Oro,01/02/2026,31/09/2026
+Adidas,None,Sandra.Cabrera@Yahoo.Es,38078.0,Bronce,1/02/2026,31/08/2026
+Nike,Paula Gil,Paula.Gil@Gmail.Com,114962.0,Oro,01/03/2026,31/10/2026
+Pepsi,Tomás Soto,Tomas.Soto@Hotmail.Com,112690.0,Oro,1/01/2026,31/11/2026
+Heineken,Sara Navarro,Sara.Navarro@Yahoo.Es,119758.0,Oro,1/03/26,31/12/2026
+Movistar,Sara Navarro,Sara.Navarro@Outlook.Com,42347.0,Bronce,1/01/26,31/12/2026
+Vodafone,Isabel Gómez,None,54642.0,Plata,01/02/2026,31/12/2026
+Orange,Marta Vázquez,Marta.Vazquez@Management.Com,53089.0,Plata,1/01/2026,31/08/2026
+Amazon,Felipe Carrasco,Felipe.Carrasco@Gmail.Com,107.89,Oro,01/02/2026,31/10/2026
+Google,Daniel Castro,Daniel.Castro@Yahoo.Es,43561.0,Bronce,01/01/2026,31/09/2026
+Meta,Fernando Morales,Fernando.Morales@Gmail.Com,51294.0,Plata,01/03/2026,31/10/2026
+Apple,Marta Vázquez,Marta.Vazquez@Gmail.Com,104213.0,Oro,1/03/2026,31/12/2026
+Microsoft,Ana Fernández,Ana.Fernandez@Yahoo.Es,78948.0,Plata,01/03/2026,31/08/2026
+Sony,Irene Prieto,Irene.Prieto@Yahoo.Es,28439.0,Bronce,01/02/2026,31/9/2026
+Hp,None,Adrian.Calvo@Outlook.Com,99400.0,Oro,01/03/2026,31/08/2026
+Lenovo,Hugo Guerrero,Hugo.Guerrero@Hotmail.Com,110396.0,Oro,1/3/2026,31/11/2026
+Mercadona,Mario Girón,Miguel.Rodriguez@Musica.Es,58015.0,Plata,01/02/2026,31/11/2026
+Naturgy,Víctor Blanco,Rocio.Suarez@Hotmail.Com,80812.0,Oro,01/02/2026,31/08/2026
+Telefónica,Clara Cano,Clara.Cano@Management.Com,59683.0,Bronce,01/02/2026,31/10/2026
+Mercadona,José García,David.Ruiz@Yahoo.Es,80076.0,Bronce,1/3/2026,31/10/2026
+Inditex,Isabel Gómez,Alejandro.Molina@Management.Com,42871.0,Oro,1/03/26,31/11/2026
