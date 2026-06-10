@@ -331,11 +331,11 @@ mapeo_categoria = {
 def limpiar_texto(texto): #elimina espacios al ppo, al final y en medio
     if not texto:
         return 'None'
-    texto_limpio = texto.strip()
-    texto_limpio = ' '.join(texto.split())
+    texto_limpio = texto.strip() #elimina espacios al ppo y al final
+    texto_limpio = ' '.join(texto.split()) #elimina los espacios del medio(split) y luego une cada palabra con un espacio en blanco 
     return texto_limpio
 
-def corregir_tildes(texto):
+def corregir_tildes(texto): #para poner las tildes que faltan
     correcciones_tildes = {
         "jose":       "José",      "maria":      "María",
         "garcia":     "García",    "gonzalez":   "González",
@@ -346,16 +346,16 @@ def corregir_tildes(texto):
         "ramirez":    "Ramírez",   "gutierrez":  "Gutiérrez",
         "electronica": "Electrónica"
     }
-    palabras = texto.split()
+    palabras = texto.split() #separar las palabras del texto por un espacio
     palabras_con_tildes =[]
     for palabra in palabras:
         clave = correcciones_tildes.get(palabra.lower())
         if clave:
-            palabras_con_tildes.append(clave)
+            palabras_con_tildes.append(clave) #si encuentra la clave en el diccionario, añade la palabra con tilde a la lista
         else:
-            palabras_con_tildes.append(palabra)
-    lista_sin_tildes = ' '.join(palabras_con_tildes) #lo une con un espacio entre cada elemento de la lista
-    return (lista_sin_tildes)
+            palabras_con_tildes.append(palabra) #si no la encuentra añade la palabra porque no necesita corrección
+    lista_con_tildes = ' '.join(palabras_con_tildes) #lo une con un espacio entre cada elemento de la lista
+    return (lista_con_tildes)
 
 
 
@@ -363,14 +363,14 @@ def normalizar_texto(texto):
     if not texto:
         return 'None'
     texto_limpio = limpiar_texto(texto)
-    texto_limpio = texto.title()
+    texto_limpio = texto.title() #mayúscula la primera letra de cada palabra
     texto_limpio = corregir_tildes(texto_limpio)
-    return texto_limpio
+    return texto_limpio #devuelve un texto sin espacios, con las tildes correctas y la 1ª letra en mayúscula
 
 
 def limpiar_valor_numerico(valor, tipo):
     try:
-        valor_txt = str(valor).strip().replace('€', '').replace(',', '.')
+        valor_txt = str(valor).strip().replace('€', '').replace(',', '.') 
         if tipo == 'int':
             return int(valor_txt)
         elif tipo == 'float':
@@ -378,7 +378,7 @@ def limpiar_valor_numerico(valor, tipo):
     except ValueError:
         return None
         
-def normalizar_fecha(fecha_texto):
+def normalizar_fecha(fecha_texto): #unifica el formato de las fechas
     meses = {
     "enero":1, "febrero":2, "marzo":3, "abril":4,
     "mayo":5, "junio":6, "julio":7, "agosto":8,
@@ -387,15 +387,14 @@ def normalizar_fecha(fecha_texto):
     "jul":7, "aug":8, "ago":8, "sep":9, "oct":10, "nov":11, "dec":12, "dic":12
     }
     if not fecha_texto:
-        return 'None'
-    if fecha_texto.find('/') and ( len(fecha_texto.split(' / ')[0]) == 1 or len(fecha_texto.split('/')[0]) == 2):
+        return None
+    if '/' in fecha_texto and ( len(fecha_texto.split(' / ')[0]) == 1 or len(fecha_texto.split('/')[0]) == 2):
         
         fecha_partes = fecha_texto.split('/')
         dia = fecha_partes[0]
-        mes =  str((fecha_partes[1])).zfill(2)
+        mes =  str((fecha_partes[1])).zfill(2) #zfill añade dos 0's a la izqda
         anio = fecha_partes[2]
-        #return fecha_texto
-    
+           
     
     elif '-' in fecha_texto and  len(fecha_texto.split('-')[0]) == 4:
         fecha_trozos = fecha_texto.split('-')
@@ -403,19 +402,15 @@ def normalizar_fecha(fecha_texto):
         dia = fecha_trozos[0]
         mes = fecha_trozos [1]
         anio = fecha_trozos[2]
-        #fecha = '/'.join(fecha_trozos)
-        #return fecha
+         
         
-    
-        # return '/'.join(fecha_texto.split('-').reverse())
     elif ' de ' in fecha_texto:
         fecha_partes = fecha_texto.split(' de ')
         dia=fecha_partes[0]
-        mes_letra =fecha_partes[1] #julio
+        mes_letra =fecha_partes[1] 
         mes = str(meses[mes_letra]).zfill(2)
         anio=fecha_partes[2]
-        #print(f'{dia}/{mes}/{anio}')
-       
+            
         
     elif fecha_texto.find(',') and fecha_texto.split(' ')[0].isalpha():
         #mes = fecha_texto.split(' ')[0]
@@ -424,7 +419,7 @@ def normalizar_fecha(fecha_texto):
         mes_letra = fecha_partes[0]
         mes = meses[mes_letra]
         anio = fecha_partes[3]
-        #print(f'{dia}/{mes}/{anio}')
+        
         
 
     elif '-' in fecha_texto and ( len(fecha_texto.split('-')[0]) == 1 or len(fecha_texto.split('-')[0]) == 2):
@@ -432,7 +427,6 @@ def normalizar_fecha(fecha_texto):
         dia = fecha_partes[0]
         mes = fecha_partes[1] if not fecha_partes[1].isalpha() else str(meses[fecha_partes[1]]).zfill(2)
         anio = fecha_partes[2]
-        #print(f'{dia}/{mes}/{anio}')
         
     
     elif '/' in fecha_texto and len(fecha_texto.split('/')[2]) == 2 and len(fecha_texto.split('/')[1]) == 1:
@@ -455,51 +449,55 @@ def normalizar_fecha(fecha_texto):
         print ('Fecha inválida')
 
     return (f"{dia}/{mes}/{anio}")
-    #return (f"{dia:02d}/{mes:02d}/{anio}")
-     
 
+def normalizar_categoria(texto,mapeo_generos):
+    if not texto:
+        return None
+    categoria_limpia = limpiar_texto(texto)
+    if not mapeo_generos[texto]: #si no está en el diccionario de mapeo, lo devuelve limpio
+        return categoria_limpia
+    else:
+        return mapeo_generos[texto] #si está en el diccionario de mapeo, devuelve el valor correspondiente en ese diccionario
 
 
 def auditar(item,item_limpio):
     diccionario = {}
     for clave in item.keys():
-        diccionario[clave]= item[clave] != item_limpio[clave]
-    return diccionario
+        diccionario[clave]= item[clave] != item_limpio[clave]#si hay cambios entre item e item_limpio, se almacena en el diccionario clave: True
+    return diccionario #devuelve un diccionario de True si se ha efectuado algún cambio o False si no para cada clave. 
     
 def contar_cambios(lista):
     diccionario_cambios = dict.fromkeys(lista[0], 0)
     for item in lista:
         for clave in item.keys():
-            if item[clave]:
+            if item[clave]: #si item[clave] = True ha habido un cambio
                 if diccionario_cambios[clave]:
                     diccionario_cambios[clave] = diccionario_cambios[clave] + 1
                 else:
                     diccionario_cambios[clave] = 1
     return diccionario_cambios
 
+
 def procesar_csv(lista):
     lista_limpia = []
     lista_auditoria = []
     for item in lista: 
         item_limpio = {
-           'id_artista': normalizar_texto(item['id_artista']),
+            'id_artista': normalizar_texto(item['id_artista']),
             'nombre' : normalizar_texto(item['nombre']),
             'genero_musical': normalizar_categoria(item['genero_musical'], mapeo_generos),
-             'pais':normalizar_categoria(item['pais'], mapeo_paises),
-             'cache_eur': limpiar_valor_numerico(item['cache_eur'], 'float'),
-             'email_manager':normalizar_texto(item['email_manager']),
-             'telefono': item['telefono']
-       }
+            'pais':normalizar_categoria(item['pais'], mapeo_paises),
+            'cache_eur': limpiar_valor_numerico(item['cache_eur'], 'float'),
+            'email_manager':normalizar_texto(item['email_manager']),
+            'telefono': item['telefono']
+        }
         auditoria = auditar(item, item_limpio)
-        lista_auditoria.append(auditoria)
+        lista_auditoria.append(auditoria)#añade True si hay cambios para ese item
         lista_limpia.append(item_limpio)
     resumen_auditoria = contar_cambios(lista_auditoria)
-   
-    
     return lista_limpia, resumen_auditoria
 
-       
-           
+                 
 def procesar_excel(lista):
     lista_auditoria = []
     lista_limpia = []
@@ -560,18 +558,3 @@ def procesar_xml(lista):
     resumen_auditoria = contar_cambios(lista_auditoria)
     return lista_limpia, resumen_auditoria
 
-
-
-
-def normalizar_categoria(texto,mapeo_generos):
-    if not texto:
-        return 'None'
-    categoria_limpia = limpiar_texto(texto)
-    if not mapeo_generos[texto]:
-        return categoria_limpia
-    else:
-        return mapeo_generos[texto]
-
-
-
-    

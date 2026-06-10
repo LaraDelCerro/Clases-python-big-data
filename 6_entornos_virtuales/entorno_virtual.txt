@@ -1,0 +1,30 @@
+Comandos para crear entorno virtual y activarlo 
+
+CREAR entorno de desarrollo
+
+python -m venv .venv
+
+ACTIVAR el entorno de desarrollo
+
+source .venv/Scripts/activate en Windows
+source .venv/bin/actívate en MAC   
+
+LIBRERíAS
+
+pip install lib 1 lib2 lib3 …
+
+REQUIREMENTS.TXT --> fichero de texto donde voy actualizando todas las librerías que tengo en el proyecto
+Para crear el fichero requirements.txt con el listado de librerias instaladas
+pip freeze > requirements.txt
+
+Al finalizar un proyecto, eliminamos la carpeta .venv para liberar espacio y si necesitamos instalar de nuevo todo lo que teníamos antes, lo tenemos guardado en requirements.txt
+
+Instalar todas las dependencias del requirements.txt
+pip install -r requirements.txt
+
+Para desactivar el entorno
+deactivate
+
+
+ALGUNAS LIBRERÍAS
+ REQUESTS --> obtener datos de páginas de internet
