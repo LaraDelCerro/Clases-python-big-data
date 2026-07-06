@@ -49,4 +49,9 @@ crear_excel(patrocinadores, 'datos_limpios', 'datos.xlsx', 'patrocinadores')
 
 
 
+#print(normalizar_fecha('15 de julio de 2026'))
+
+valores_unicos = set(r['escenario'].lower().strip() for r in datos)
+print(valores_unicos)
+
 
