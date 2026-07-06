@@ -449,6 +449,24 @@ def normalizar_fecha(fecha_texto): #unifica el formato de las fechas
         print ('Fecha inválida')
 
     return (f"{dia}/{mes}/{anio}")
+    #return (f"{dia:02d}/{mes:02d}/{anio}")
+     
+def normalizar_categoria(texto,mapeo_generos):
+    categoria_limpia = limpiar_texto(texto)
+    for clave, valor in mapeo_generos.items():
+        if texto == clave:
+            categoria_limpia = valor
+    if categoria_limpia == limpiar_texto(texto):
+        print ('Valor no reconocido')
+    return categoria_limpia
+
+def detectar_fuera_de_rango(valor, minimo, maximo):
+    if valor < 0: 
+        valor_abs == abs(valor)
+    if minimo<= valor_abs <=maximo:
+        return True
+    else:
+        return 'Valor fuera de rango'
 
 def normalizar_categoria(texto,mapeo_generos):
     if not texto:
@@ -558,3 +576,19 @@ def procesar_xml(lista):
     resumen_auditoria = contar_cambios(lista_auditoria)
     return lista_limpia, resumen_auditoria
 
+
+
+
+def normalizar_categoria(texto,mapeo_generos):
+    if not texto:
+        return 'None'
+    categoria_limpia = limpiar_texto(texto)
+    if not mapeo_generos[texto]:
+        return categoria_limpia
+    else:
+        return mapeo_generos[texto]
+
+
+
+
+    

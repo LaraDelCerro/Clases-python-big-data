@@ -62,4 +62,9 @@ mostrar_auditoria('patrocinadores.xml', auditoria_patrocinadores)
 
 
 
+#print(normalizar_fecha('15 de julio de 2026'))
+
+valores_unicos = set(r['escenario'].lower().strip() for r in datos)
+print(valores_unicos)
+
 
