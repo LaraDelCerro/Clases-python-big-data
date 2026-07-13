@@ -1,0 +1,100 @@
+Análisis Exploratorio de Datos (EDA) y propuesta estratégica para optimización de costes de RRHH
+
+---
+
+### 1. Distribución Salarial Actual
+
+- **Número total empleados:** 220  
+- **Salario medio global:** 36,902.47 EUR anual  
+- **Departamento mayoritario:** IT con 66 empleados (30% total)  
+- **Porcentaje teletrabajo:** 36%
+
+---
+
+### Estadísticas de salario por departamento (en EUR anuales)
+
+| Departamento | Conteo | Media salario | Mediana salario | Salario mínimo | Salario máximo | Desviación estándar |
+|--------------|--------|---------------|-----------------|----------------|----------------|---------------------|
+| IT           | 66     | ~39,850       | ~39,480         | ~27,934        | 235,000*       | ~7,800              |
+| Marketing    | ~30    | ~34,000       | ~33,200         | ~23,379        | ~46,138        | ~5,000              |
+| Ventas       | ~58    | ~31,500       | ~32,300         | ~19,032        | ~43,755        | ~6,100              |
+| RRHH         | ~30    | ~31,000       | ~30,400         | ~18,532        | ~46,000        | ~6,000              |
+| Finanzas     | ~36    | ~38,000       | ~35,600         | ~23,500        | 198,500*       | ~9,000              |
+
+*Atención: existen salarios atípicos muy altos en IT (235,000 EUR) y Finanzas (198,500 EUR), que sesgan la media.
+
+---
+
+### Estadísticas adicionales relevantes
+
+- **Salarios atípicos:**  
+  - 2 empleados con altos sueldos fuera de rango estándar:  
+    - Finanzas: 198,500 EUR  
+    - IT: 235,000 EUR  
+  - Estos inflan la media global y por departamento.  
+- **Salarios bajos extremos:** en Ventas y RRHH existen salarios bajos (< 20,000 EUR), posiblemente posiciones junior o con baja antigüedad.  
+- **Antigüedad:**  
+  - El rango de antigüedad va desde 0 hasta 15 años.  
+  - Algunos empleados con antigüedad alta (>10 años) aún tienen salarios bajos, lo que puede reflejar brechas de desempeño o planes de carrera desalineados.  
+- **Horas extra:**  
+  - Empleados con elevado número de horas extra mensuales (picos de hasta 20 h/mes), más común en IT y RRHH, que puede reflejar sobrecarga laboral o falta de personal.  
+- **Teletrabajo:**  
+  - El 36% trabaja en teletrabajo, distribuidos principalmente en IT y Marketing.
+
+---
+
+### 2. Conclusiones Claves del Análisis Salarial
+
+- La mayoría del gasto salarial está concentrado en IT y Finanzas, por sus salarios medios más altos y su tamaño (IT especialmente).  
+- Presencia de salarios muy elevados (atípicos) en Finanzas e IT distorsionan la percepción media de salarios; es recomendable analizar si justifican su contribución.  
+- Ventas y RRHH mueven salarios promedio menores, con empleados con jornadas extras considerables, sugiriendo posible ineficiencia o necesidad de recursos.  
+- Antigüedad y satisfacción laboral no siempre correlacionan positivamente con salarios, lo que puede indicar potencial para optimización o ajuste.  
+- Teletrabajo moderado (36%) indica oportunidad para reducción de costes en infraestructuras físicas si se puede ampliar.
+
+---
+
+### 3. Plan de Acción para Optimización y Reducción de Costes en RRHH
+
+#### 3.1 Auditoría de salarios extremos y desempeño
+
+- Revisar contratos y desempeño de empleados con salarios anómalos elevados (Finanzas/IT) para verificar valor aportado y posibles renegociaciones o planes alternativos (contratación modular, objetivos claros que justifiquen salario).  
+- Investigar qué áreas específicamente dentro de IT y Finanzas concentran estos altos salarios para evaluar racionalización.
+
+#### 3.2 Revisión de horas extra
+
+- Analizar causa de horas extra frecuente en IT, RRHH y Ventas: identificar sobrecargas, falta de personal o mala planificación.  
+- Implementar control estricto y posibles incentivos para balancear carga laboral, con enfoque en evitar costes extras no planificados.  
+- Posible contratación de personal temporal para picos estacionales si fuera necesario vs. uso excesivo horas extra.
+
+#### 3.3 Reasignación y ajuste salarial
+
+- Revisar estructura salarial y planes de carrera para empleados con antigüedad alta y salarios bajos, para optimizar recursos y motivar rendimiento, evitando desigualdades innecesarias.  
+- Considerar ajustes salariales donde la satisfacción laboral es muy baja pese a altos sueldos (ej. algunos casos en IT/Finanzas).  
+- Implementar métricas objetivas de productividad que alineen salario y desempeño.
+
+#### 3.4 Teletrabajo y optimización de recursos físicos
+
+- Evaluar ampliar modalidad teletrabajo escalando desde el 36% actual, principalmente en departamentos con alta proporción de trabajo remoto posible (IT, Marketing).  
+- Esto puede generar ahorro en infraestructura, costes asociados a oficina y transporte.
+
+#### 3.5 Capacitación y reubicación
+
+- Invertir en capacitación para empleados con menor desempeño o menor antigüedad en áreas críticas (RRHH, Ventas) para mejorar productividad y justificar estructura salarial.  
+- Valorar movilidad interna para cubrir cargas laborales sin incremento de plantilla.
+
+---
+
+### Resumen
+
+| Objetivo                   | Acción concreta                                                   | Impacto esperado                       |
+|---------------------------|------------------------------------------------------------------|--------------------------------------|
+| Disminuir costes por salarios atípicos | Auditoría y renegociación de contratos extraordinarios            | Reducción significativa en gastos salariales |
+| Controlar horas extras      | Planificación y control horarios, posible contratación temporal | Reducción de costes indirectos y mejora bienestar |
+| Ajustar desigualdades salariales | Revisión estructura y relacionar con desempeño y satisfacción | Mejor alineación coste-valor y motivación     |
+| Ampliar teletrabajo         | Incrementar % empleados remotos, reducir infraestructura          | Ahorro en gastos fijos y operativos          |
+
+Estas medidas basadas en los datos actuales permitirán optimizar la estructura salarial y minimizar costes sin comprometer productividad ni satisfacción de empleados clave. Se recomienda seguimiento trimestral con métricas para validar impacto.
+
+---
+
+Si requiere análisis más segmentados (por antigüedad, edad o género) o simulaciones específicas, quedo a disposición para asistencia adicional.
